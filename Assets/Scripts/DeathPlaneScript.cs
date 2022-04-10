@@ -11,7 +11,7 @@ public class DeathPlaneScript : MonoBehaviour
    // public Transform CheckPoint5;
 
     public Rigidbody player;
-
+    public PlayerScript ps;
 
 
 
@@ -34,6 +34,8 @@ public class DeathPlaneScript : MonoBehaviour
         {
             
             player.transform.position = CheckPoint.position;
+            // ps.playerSpeed = 0f;
+            // ps.maxPlayerSpeed = 0f;
 
         }
 

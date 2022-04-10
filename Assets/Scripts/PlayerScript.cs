@@ -12,16 +12,24 @@ public class PlayerScript : MonoBehaviour
     public float playerSpeed = 25;
     public float maxPlayerSpeed = 50.0f;
     private Vector3 moveDirection = Vector3.zero;
-
-    public float lives = 3;
+    
+    public static float money;
+    public TMP_Text moneyTXT;
+    public static float lives = 3f;
     
     public TMP_Text livesTXT;
 
    
     public bool isThrusting;
 
-
-
+    void Awake()
+    {
+        if(lives <= 0f)
+        {
+            lives = 3f;
+        }
+        //DontDestroyOnLoad(lives);
+    }
   
 
     // Start is called before the first frame update
@@ -29,13 +37,14 @@ public class PlayerScript : MonoBehaviour
     {
         
         isThrusting = false;
+
     }
 
     // Update is called once per frame
     void FixedUpdate()
     {
         livesTXT.SetText(lives.ToString());
-
+        moneyTXT.SetText(money.ToString());
        
 
         if (Input.GetButton("Jump"))
@@ -46,12 +55,13 @@ public class PlayerScript : MonoBehaviour
 
             if(isThrusting == true)
             {
-
+                //isGrounded = false;
             }
         }
         else
         {
             isThrusting = false;
+            
         }
 
         // Calculate how fast the player is moving
@@ -74,9 +84,9 @@ public class PlayerScript : MonoBehaviour
         if (other.CompareTag("DeathPlane"))
         {
             //SceneManager.LoadScene(SceneManager.GetActiveScene().name);
-            lives -= 1;
+            lives -= 1f;
 
-            if (lives <= 0)
+            if (lives <= 0f)
             {
                 SceneManager.LoadScene("GameOver");
             }
@@ -84,7 +94,14 @@ public class PlayerScript : MonoBehaviour
 
         if (other.CompareTag("1UP"))
         {
-            lives += 1;
+            lives += 1f;
+            Destroy(other.gameObject);
+            
+        }
+
+        if (other.CompareTag("Money"))
+        {
+            money += 10f;
             Destroy(other.gameObject);
             
         }
