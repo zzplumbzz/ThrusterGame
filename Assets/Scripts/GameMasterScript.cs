@@ -7,16 +7,16 @@ public class GameMasterScript : MonoBehaviour
     private static GameMasterScript instance;
     public Vector3 lastCheckPointPos;
 
-    void Awake()
-    {
-        if(instance == null)
-        {
-            instance = this;
-            DontDestroyOnLoad(instance);
-        }
-        else
-        {
-            Destroy(gameObject);
-        }
-    }
+    // void Awake()
+    // {
+    //     if(instance == null)
+    //     {
+    //         instance = this;
+    //         DontDestroyOnLoad(instance);
+    //     }
+    //     else
+    //     {
+    //         Destroy(gameObject);
+    //     }
+    // }
 }

@@ -23,7 +23,24 @@ public class ShopDoorScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if (Input.GetKeyDown(KeyCode.E) && dialogueActive)
+        {
+            if (dialogueBox.activeInHierarchy)
+            {
+                dialogueBox.SetActive(true);
+            }
+            else
+            {
+                dialogueBox.SetActive(true);
+                dialogueText.text = dialogue;
+            }
+
+            if (Input.GetKeyDown(KeyCode.E) && dialogueBox == true)
+            {
+                dialogueBox.SetActive(false);
+            }
+
+        }
     }
 
     void OnTriggerEnter(Collider other)

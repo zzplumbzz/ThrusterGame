@@ -4,14 +4,15 @@ using UnityEngine;
 
 public class DeathPlaneScript : MonoBehaviour
 {
-    public Transform CheckPoint;
+    //public Transform CheckPoint;
+    public float time = 1f;
     //public Transform CheckPoint2;
     // public Transform CheckPoint3;
     //public Transform CheckPoint4;
    // public Transform CheckPoint5;
 
     public Rigidbody player;
-    public PlayerScript ps;
+    //public PlayerScript ps;
 
 
 
@@ -32,13 +33,24 @@ public class DeathPlaneScript : MonoBehaviour
 
         if (other.CompareTag("Player"))//when the player collides with the deathplane spawns them back at the spawn point
         {
+            player = other.GetComponent<Rigidbody>();
+            player.transform.position = player.GetComponent<PlayerScript>().currentCheckpoint.position;
+            StartCoroutine("DelayMovement");
             
-            player.transform.position = CheckPoint.position;
-            // ps.playerSpeed = 0f;
-            // ps.maxPlayerSpeed = 0f;
-
         }
 
 
+    }
+
+    private IEnumerator DelayMovement()
+    {
+        
+        
+        player.constraints = RigidbodyConstraints.FreezeAll;
+        yield return new WaitForSeconds(1.0f);
+        player.constraints = RigidbodyConstraints.None;
+        player.constraints = RigidbodyConstraints.FreezeRotation;
+            
+        
     }
 }

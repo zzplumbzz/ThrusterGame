@@ -6,21 +6,27 @@ using TMPro;
 
 public class PlayerScript : MonoBehaviour
 {
-
-    public float thrust = 40f;
+    public GameObject Flame1;
+    public GameObject Flame2;
+    public GameObject Flame3;
+    public float thrust = 50f;
     public Rigidbody rb;
     public float playerSpeed = 25;
     public float maxPlayerSpeed = 50.0f;
     private Vector3 moveDirection = Vector3.zero;
     
-    public static float money;
+    public float money;
     public TMP_Text moneyTXT;
-    public static float lives = 3f;
+    public float lives = 3f;
     
     public TMP_Text livesTXT;
 
+    public Transform currentCheckpoint;
    
     public bool isThrusting;
+    
+    public PauseMenuScript PMS;
+    public PlayerPrefs floatToLoad;
 
     void Awake()
     {
@@ -37,6 +43,7 @@ public class PlayerScript : MonoBehaviour
     {
         
         isThrusting = false;
+        
 
     }
 
@@ -65,7 +72,7 @@ public class PlayerScript : MonoBehaviour
         }
 
         // Calculate how fast the player is moving
-        Vector3 targetVelocity = new Vector3(Input.GetAxis("Horizontal"), 0, Input.GetAxis("Vertical"));
+        Vector3 targetVelocity = new Vector3(Input.GetAxis("Horizontal"),0 ,0);
         targetVelocity = rb.transform.TransformDirection(targetVelocity);
         targetVelocity *= playerSpeed;
 
@@ -79,11 +86,52 @@ public class PlayerScript : MonoBehaviour
 
     }
 
+    public void Update()
+    {
+        if (isThrusting == false)
+        {
+            Flame1.SetActive(false);
+            Flame2.SetActive(false);
+            Flame3.SetActive(false);
+        }
+        else if (isThrusting == true)
+        {
+            Flame1.SetActive(true);
+            Flame2.SetActive(true);
+            Flame3.SetActive(true);
+        }
+
+        if (Input.GetKeyDown(KeyCode.P))
+        {
+            Time.timeScale = 0;
+            PMS.pauseMenuCanvas.SetActive(true);
+        }
+
+        if (Time.timeScale == 0 && Input.GetKeyDown(KeyCode.P))
+        {
+            Time.timeScale = 1;
+            PMS.pauseMenuCanvas.SetActive(false);
+        }
+
+        
+    }
+
     private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("DeathPlane"))
         {
-            //SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+            
+            lives -= 1f;
+
+            if (lives <= 0f)
+            {
+                SceneManager.LoadScene("GameOver");
+            }
+        }
+
+        if (other.CompareTag("Flame"))
+        {
+            
             lives -= 1f;
 
             if (lives <= 0f)
@@ -103,9 +151,45 @@ public class PlayerScript : MonoBehaviour
         {
             money += 10f;
             Destroy(other.gameObject);
-            
+
+            if(money == 100f)
+            {
+                lives += 1;
+            }
+            if(money == 200f)
+            {
+                lives += 1;
+            }
+            if(money == 300f)
+            {
+                lives += 1;
+            }
+            if(money == 400f)
+            {
+                lives += 1;
+            }
+            if(money == 500f)
+            {
+                lives += 1;
+            }
         }
     }
 
+    public void SaveGame()
+    {
+        PlayerPrefs.SetFloat("SavedMoney", money);
+        PlayerPrefs.SetFloat("SavedLives", lives);
+        PlayerPrefs.Save();
+        Debug.Log("Game data saved!");
+    }
+
+    public void LoadGame()
+    {
+	
+		PlayerPrefs.GetFloat("SavedMoney");
+		PlayerPrefs.GetFloat("SavedLives");
+		Debug.Log("Game data loaded!");
+
    
+    }
 }

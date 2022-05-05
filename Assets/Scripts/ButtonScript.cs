@@ -61,6 +61,8 @@ public class ButtonScript : MonoBehaviour
 
     }
 
+    
+
     public void Quit()//quits the game
     {
         Application.Quit();
