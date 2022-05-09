@@ -45,6 +45,7 @@
      <Compile Include="Assets\Scripts\RotatingObstacle.cs" />
      <Compile Include="Assets\Scripts\LifeUpScript.cs" />
      <Compile Include="Assets\Scripts\DialogueScript.cs" />
+     <Compile Include="Assets\Scripts\CheckPointScript.cs" />
      <Compile Include="Assets\Scripts\ToLevel2.cs" />
      <Compile Include="Assets\Scripts\CameraFollowScript.cs" />
      <Compile Include="Assets\Scripts\Timer.cs" />
@@ -53,11 +54,10 @@
      <Compile Include="Assets\Scripts\SpinningScript.cs" />
      <Compile Include="Assets\Scripts\ReverseSpinningScript.cs" />
      <Compile Include="Assets\Scripts\PauseMenuScript.cs" />
+     <Compile Include="Assets\Scripts\FlameScript.cs" />
      <Compile Include="Assets\Scripts\ButtonScript.cs" />
      <Compile Include="Assets\Scripts\PlayerScript.cs" />
      <Compile Include="Assets\Scripts\MoneyScript.cs" />
-     <Compile Include="Assets\Scripts\FlameScript.cs" />
-     <Compile Include="Assets\Scripts\CheckPointScript.cs" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />

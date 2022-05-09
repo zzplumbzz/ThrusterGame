@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class FlameScript : MonoBehaviour
 {
-    public float time = 5f;
+    public float time = 1.0f;
     public GameObject flame;
     public Rigidbody player;
     
@@ -22,7 +22,7 @@ public class FlameScript : MonoBehaviour
 
         if(time <= 0)
         {
-            time = 5.0f;
+            time = 1.0f;
             
 
             if(flame.GetComponent<MeshRenderer>().enabled == true)
