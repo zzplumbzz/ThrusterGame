@@ -10,6 +10,11 @@ public class PlayerScript : MonoBehaviour
     public GameObject Flame1;
     public GameObject Flame2;
     public GameObject Flame3;
+    public GameObject Gun;
+    public GameObject gunBarrel;
+    public GameObject lazer;
+    public float lazerSpeed = 100.0f;
+    public float lazerLifeTime = 1.0f;
     public float thrust = 50f;
     public Rigidbody rb;
     public float playerSpeed = 25;
@@ -45,7 +50,8 @@ public class PlayerScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        Gun.SetActive(false);
+        Gun.GetComponent<MeshRenderer>().enabled = false;
         isThrusting = false;
         
 
@@ -114,7 +120,25 @@ public class PlayerScript : MonoBehaviour
             Flame2.SetActive(true);
             Flame3.SetActive(true);
         }
+
+        if(Gun.GetComponent<MeshRenderer>().enabled == true && Input.GetKeyDown(KeyCode.N))
+        {
+            GameObject lazerClone = Instantiate(lazer, gunBarrel.transform.position, Quaternion.identity) as GameObject;
+            Rigidbody lazerPrefabRigidBody = lazerClone.GetComponent<Rigidbody>();
+            lazerPrefabRigidBody.AddForce(Vector3.right * lazerSpeed, ForceMode.Impulse);
+            if(Time.deltaTime == lazerLifeTime)
+            {
+            Destroy(lazer);
+            Destroy(lazerClone);
+            }
+        }
+
+        
     }
+
+  
+
+    
 
     private void OnTriggerEnter(Collider other)
     {
@@ -172,6 +196,13 @@ public class PlayerScript : MonoBehaviour
             {
                 lives += 1;
             }
+        }
+
+        if (other.CompareTag("Gun"))
+        {
+            Gun.SetActive(true);
+            Gun.GetComponent<MeshRenderer>().enabled = true;
+            Destroy(other.gameObject);
         }
     }
 
