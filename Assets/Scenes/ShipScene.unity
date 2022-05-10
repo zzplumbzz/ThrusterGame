@@ -2357,6 +2357,76 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1476749746
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 6350849434648088168, guid: 83a93c895ebe96149bb3a096e9ea0899, type: 3}
+      propertyPath: m_Name
+      value: NPC (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6350849434648088169, guid: 83a93c895ebe96149bb3a096e9ea0899, type: 3}
+      propertyPath: dialogue
+      value: Dont worry about the timer, it's just there for the records. No need
+        to rush if you don't want too.
+      objectReference: {fileID: 0}
+    - target: {fileID: 6350849434648088169, guid: 83a93c895ebe96149bb3a096e9ea0899, type: 3}
+      propertyPath: dialogueBox
+      value: 
+      objectReference: {fileID: 1367728024}
+    - target: {fileID: 6350849434648088169, guid: 83a93c895ebe96149bb3a096e9ea0899, type: 3}
+      propertyPath: dialogueText
+      value: 
+      objectReference: {fileID: 143399095}
+    - target: {fileID: 6350849434648088173, guid: 83a93c895ebe96149bb3a096e9ea0899, type: 3}
+      propertyPath: m_RootOrder
+      value: 22
+      objectReference: {fileID: 0}
+    - target: {fileID: 6350849434648088173, guid: 83a93c895ebe96149bb3a096e9ea0899, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -15.19
+      objectReference: {fileID: 0}
+    - target: {fileID: 6350849434648088173, guid: 83a93c895ebe96149bb3a096e9ea0899, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6350849434648088173, guid: 83a93c895ebe96149bb3a096e9ea0899, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 4.8474293
+      objectReference: {fileID: 0}
+    - target: {fileID: 6350849434648088173, guid: 83a93c895ebe96149bb3a096e9ea0899, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6350849434648088173, guid: 83a93c895ebe96149bb3a096e9ea0899, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6350849434648088173, guid: 83a93c895ebe96149bb3a096e9ea0899, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6350849434648088173, guid: 83a93c895ebe96149bb3a096e9ea0899, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6350849434648088173, guid: 83a93c895ebe96149bb3a096e9ea0899, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6350849434648088173, guid: 83a93c895ebe96149bb3a096e9ea0899, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6350849434648088173, guid: 83a93c895ebe96149bb3a096e9ea0899, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 83a93c895ebe96149bb3a096e9ea0899, type: 3}
 --- !u!1 &1499652536
 GameObject:
   m_ObjectHideFlags: 0
@@ -3382,6 +3452,75 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &2048755591
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 6350849434648088168, guid: 83a93c895ebe96149bb3a096e9ea0899, type: 3}
+      propertyPath: m_Name
+      value: NPC (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6350849434648088169, guid: 83a93c895ebe96149bb3a096e9ea0899, type: 3}
+      propertyPath: dialogue
+      value: I sell things, would you like to take a look?
+      objectReference: {fileID: 0}
+    - target: {fileID: 6350849434648088169, guid: 83a93c895ebe96149bb3a096e9ea0899, type: 3}
+      propertyPath: dialogueBox
+      value: 
+      objectReference: {fileID: 1367728024}
+    - target: {fileID: 6350849434648088169, guid: 83a93c895ebe96149bb3a096e9ea0899, type: 3}
+      propertyPath: dialogueText
+      value: 
+      objectReference: {fileID: 143399095}
+    - target: {fileID: 6350849434648088173, guid: 83a93c895ebe96149bb3a096e9ea0899, type: 3}
+      propertyPath: m_RootOrder
+      value: 21
+      objectReference: {fileID: 0}
+    - target: {fileID: 6350849434648088173, guid: 83a93c895ebe96149bb3a096e9ea0899, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2.59
+      objectReference: {fileID: 0}
+    - target: {fileID: 6350849434648088173, guid: 83a93c895ebe96149bb3a096e9ea0899, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6350849434648088173, guid: 83a93c895ebe96149bb3a096e9ea0899, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 4.8474293
+      objectReference: {fileID: 0}
+    - target: {fileID: 6350849434648088173, guid: 83a93c895ebe96149bb3a096e9ea0899, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6350849434648088173, guid: 83a93c895ebe96149bb3a096e9ea0899, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6350849434648088173, guid: 83a93c895ebe96149bb3a096e9ea0899, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6350849434648088173, guid: 83a93c895ebe96149bb3a096e9ea0899, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6350849434648088173, guid: 83a93c895ebe96149bb3a096e9ea0899, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6350849434648088173, guid: 83a93c895ebe96149bb3a096e9ea0899, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6350849434648088173, guid: 83a93c895ebe96149bb3a096e9ea0899, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 83a93c895ebe96149bb3a096e9ea0899, type: 3}
 --- !u!1 &2051156427
 GameObject:
   m_ObjectHideFlags: 0

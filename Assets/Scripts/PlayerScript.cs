@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using TMPro;
+using UnityEngine.InputSystem;
 
 public class PlayerScript : MonoBehaviour
 {
@@ -28,13 +29,16 @@ public class PlayerScript : MonoBehaviour
     public PauseMenuScript PMS;
     public PlayerPrefs floatToLoad;
 
+    //XboxOneController controls;
+
     void Awake()
     {
         if(lives <= 0f)
         {
             lives = 3f;
         }
-        //DontDestroyOnLoad(lives);
+        
+        //controls = new XboxOneController();
     }
   
 

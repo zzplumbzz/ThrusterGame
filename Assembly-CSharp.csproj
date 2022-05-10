@@ -37,11 +37,13 @@
   </PropertyGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\HorizontalObstacle.cs" />
+     <Compile Include="Assets\Scripts\EndLevelScript.cs" />
      <Compile Include="Assets\Scripts\DeathPlaneScript.cs" />
      <Compile Include="Assets\Scripts\VerticleObstacles.cs" />
      <Compile Include="Assets\Scripts\RotatingObstacle.cs" />
      <Compile Include="Assets\Scripts\LifeUpScript.cs" />
      <Compile Include="Assets\Scripts\DialogueScript.cs" />
+     <Compile Include="Assets\Scripts\ConsoleScript.cs" />
      <Compile Include="Assets\Scripts\CheckPointScript.cs" />
      <Compile Include="Assets\Scripts\CameraFollowScript.cs" />
      <Compile Include="Assets\Scripts\Timer.cs" />
@@ -53,8 +55,6 @@
      <Compile Include="Assets\Scripts\PlayerScript.cs" />
      <Compile Include="Assets\Scripts\MoneyScript.cs" />
      <Compile Include="Assets\Scripts\ShipScript.cs" />
-     <Compile Include="Assets\Scripts\ConsoleScript.cs" />
-     <Compile Include="Assets\Scripts\EndLevelScript.cs" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
