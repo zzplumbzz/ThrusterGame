@@ -15,9 +15,9 @@ public class PlayerScript : MonoBehaviour
     public float maxPlayerSpeed = 50.0f;
     private Vector3 moveDirection = Vector3.zero;
     
-    public float money;
+    public static float money;
     public TMP_Text moneyTXT;
-    public float lives = 3f;
+    public static float lives = 3f;
     
     public TMP_Text livesTXT;
 
@@ -88,6 +88,16 @@ public class PlayerScript : MonoBehaviour
 
     public void Update()
     {
+        
+
+        if (Input.GetKeyDown(KeyCode.P))
+        {
+            Time.timeScale = 0;
+            PMS.pauseMenuCanvas.SetActive(true);
+        }
+
+        
+
         if (isThrusting == false)
         {
             Flame1.SetActive(false);
@@ -100,20 +110,6 @@ public class PlayerScript : MonoBehaviour
             Flame2.SetActive(true);
             Flame3.SetActive(true);
         }
-
-        if (Input.GetKeyDown(KeyCode.P))
-        {
-            Time.timeScale = 0;
-            PMS.pauseMenuCanvas.SetActive(true);
-        }
-
-        if (Time.timeScale == 0 && Input.GetKeyDown(KeyCode.P))
-        {
-            Time.timeScale = 1;
-            PMS.pauseMenuCanvas.SetActive(false);
-        }
-
-        
     }
 
     private void OnTriggerEnter(Collider other)

@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PauseMenuScript : MonoBehaviour
 {
@@ -18,5 +19,10 @@ public class PauseMenuScript : MonoBehaviour
     {
         pauseMenuCanvas.SetActive(false);
         Time.timeScale = 1;
+    }
+
+    public void LoadMenuScene(string sceneName)//takes player to menu scene
+    {
+        SceneManager.LoadScene("MainMenu");
     }
 }
