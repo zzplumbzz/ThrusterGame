@@ -55,6 +55,11 @@ public class ButtonScript : MonoBehaviour
         SceneManager.LoadScene("GameOverScene");
     }
 
+    public void LoadShipScene(string sceneName)//takes player to gameover scene
+    {
+        SceneManager.LoadScene("ShipScene");
+    }
+
     public void ResetLevel(string sceneName)
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);

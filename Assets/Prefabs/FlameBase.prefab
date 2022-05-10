@@ -63,7 +63,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 59ea76da5c5fc4f4480e116acb586b3e, type: 2}
+  - {fileID: 2100000, guid: 2a3d46681e4a40e45ac459e9a89ac7c1, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -228,4 +228,3 @@ MonoBehaviour:
   time: 5
   flame: {fileID: 5720400514661950204}
   player: {fileID: 0}
-  CheckPoint: {fileID: 0}

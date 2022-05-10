@@ -1,517 +1,405 @@
 { "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
-,{ "pid":12345, "tid":0, "ts":1652148236862754, "dur":1339, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1652148236864100, "dur":28, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
-,{ "pid":12345, "tid":0, "ts":1652148236864144, "dur":9, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
-,{ "pid":12345, "tid":0, "ts":1652148236864155, "dur":409, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
-,{ "pid":12345, "tid":0, "ts":1652148236864600, "dur":444, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1652148236865044, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1652148237530964, "dur":310, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1652148237531274, "dur":52, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1652148237531326, "dur":6, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1652148237531332, "dur":14, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1652148237531346, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1652148237531348, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1652148237531357, "dur":7, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1652148237531364, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1652148237531370, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1652148237531373, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1652148237531381, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1652148237531383, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1652148237531389, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1652148237531390, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1652148237531397, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1652148237531398, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1652148237531404, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1652148237531405, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1652148237531412, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1652148237531414, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1652148237531420, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1652148237531422, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1652148237531428, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1652148237531430, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1652148237531436, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1652148237531439, "dur":2, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1652148237531457, "dur":1538, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
-,{ "pid":12345, "tid":1, "ts":1652148236864742, "dur":307, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1652148236865051, "dur":4506, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1652148236869568, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
-,{ "pid":12345, "tid":1, "ts":1652148236869572, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1652148236871438, "dur":632, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
-,{ "pid":12345, "tid":1, "ts":1652148236872074, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/ThrusterGame_Data/app.info" }}
-,{ "pid":12345, "tid":1, "ts":1652148236872137, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1652148236872466, "dur":8670, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/ThrusterGame_Data/app.info" }}
-,{ "pid":12345, "tid":1, "ts":1652148236881140, "dur":216, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":1, "ts":1652148236881359, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1652148236882050, "dur":61589, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":1, "ts":1652148236943702, "dur":37916, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
-,{ "pid":12345, "tid":1, "ts":1652148236981621, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1652148236983711, "dur":1740, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
-,{ "pid":12345, "tid":1, "ts":1652148236985512, "dur":16654, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/ThrusterGame_Data/Managed/UnityEngine.VehiclesModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1652148237002172, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1652148237002181, "dur":2505, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/ThrusterGame_Data/Managed/UnityEngine.VehiclesModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1652148237004734, "dur":45024, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/ThrusterGame_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1652148237049764, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1652148237049771, "dur":1376, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/ThrusterGame_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1652148237051191, "dur":82192, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/ThrusterGame_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1652148237133391, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1652148237133400, "dur":2718, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/ThrusterGame_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1652148237136161, "dur":62948, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/ThrusterGame_Data/Managed/UnityEngine.InputModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1652148237199113, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1652148237199119, "dur":2688, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/ThrusterGame_Data/Managed/UnityEngine.InputModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1652148237201854, "dur":27787, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/ThrusterGame_Data/Managed/UnityEngine.AIModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1652148237229645, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1652148237229651, "dur":1492, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/ThrusterGame_Data/Managed/UnityEngine.AIModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1652148237231185, "dur":162202, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/ThrusterGame_Data/Managed/System.Security.dll" }}
-,{ "pid":12345, "tid":1, "ts":1652148237393391, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1652148237393396, "dur":2228, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/ThrusterGame_Data/Managed/System.Security.dll" }}
-,{ "pid":12345, "tid":1, "ts":1652148237395669, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/ThrusterGame_Data/sharedassets2.assets" }}
-,{ "pid":12345, "tid":1, "ts":1652148237395713, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1652148237395717, "dur":971, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/ThrusterGame_Data/sharedassets2.assets" }}
-,{ "pid":12345, "tid":1, "ts":1652148237396728, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/ThrusterGame_Data/sharedassets1.assets" }}
-,{ "pid":12345, "tid":1, "ts":1652148237396769, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1652148237396772, "dur":875, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/ThrusterGame_Data/sharedassets1.assets" }}
-,{ "pid":12345, "tid":1, "ts":1652148237397684, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/ThrusterGame_Data/sharedassets0.assets" }}
-,{ "pid":12345, "tid":1, "ts":1652148237397723, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1652148237397726, "dur":2750, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/ThrusterGame_Data/sharedassets0.assets" }}
-,{ "pid":12345, "tid":1, "ts":1652148237400702, "dur":132, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/ThrusterGame_Data/ScriptingAssemblies.json" }}
-,{ "pid":12345, "tid":1, "ts":1652148237400837, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1652148237400842, "dur":894, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/ThrusterGame_Data/ScriptingAssemblies.json" }}
-,{ "pid":12345, "tid":1, "ts":1652148237401775, "dur":4335, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/ThrusterGame_Data/RuntimeInitializeOnLoads.json" }}
-,{ "pid":12345, "tid":1, "ts":1652148237406116, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1652148237406126, "dur":12234, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/ThrusterGame_Data/RuntimeInitializeOnLoads.json" }}
-,{ "pid":12345, "tid":1, "ts":1652148237418473, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/ThrusterGame_Data/level4" }}
-,{ "pid":12345, "tid":1, "ts":1652148237418535, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1652148237418540, "dur":1934, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/ThrusterGame_Data/level4" }}
-,{ "pid":12345, "tid":1, "ts":1652148237420524, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/ThrusterGame_Data/level2.resS" }}
-,{ "pid":12345, "tid":1, "ts":1652148237420574, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1652148237420578, "dur":2070, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/ThrusterGame_Data/level2.resS" }}
-,{ "pid":12345, "tid":1, "ts":1652148237422707, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/ThrusterGame_Data/level0.resS" }}
-,{ "pid":12345, "tid":1, "ts":1652148237422767, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1652148237422770, "dur":2886, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/ThrusterGame_Data/level0.resS" }}
-,{ "pid":12345, "tid":1, "ts":1652148237425697, "dur":112, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/ThrusterGame_Data/boot.config" }}
-,{ "pid":12345, "tid":1, "ts":1652148237425811, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1652148237425814, "dur":1444, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/ThrusterGame_Data/boot.config" }}
-,{ "pid":12345, "tid":1, "ts":1652148237427295, "dur":103672, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1652148236864776, "dur":283, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1652148236865059, "dur":4503, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1652148236869568, "dur":21542, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
-,{ "pid":12345, "tid":2, "ts":1652148236891116, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1652148236891459, "dur":53634, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
-,{ "pid":12345, "tid":2, "ts":1652148236945151, "dur":146, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/ThrusterGame_Data/Resources/unity default resources" }}
-,{ "pid":12345, "tid":2, "ts":1652148236945299, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1652148236945896, "dur":13182, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/ThrusterGame_Data/Resources/unity default resources" }}
-,{ "pid":12345, "tid":2, "ts":1652148236959206, "dur":31328, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/ThrusterGame_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1652148236990540, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1652148236990550, "dur":2157, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/ThrusterGame_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1652148236992776, "dur":71573, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/ThrusterGame_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1652148237064355, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1652148237064362, "dur":2208, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/ThrusterGame_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1652148237066611, "dur":27176, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/ThrusterGame_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1652148237093790, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1652148237093799, "dur":2098, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/ThrusterGame_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1652148237095949, "dur":24920, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/ThrusterGame_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1652148237120872, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1652148237120879, "dur":1532, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/ThrusterGame_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1652148237122456, "dur":26716, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/ThrusterGame_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1652148237149177, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1652148237149185, "dur":1383, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/ThrusterGame_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1652148237150610, "dur":16841, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/ThrusterGame_Data/Managed/UnityEngine.GridModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1652148237167457, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1652148237167467, "dur":2560, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/ThrusterGame_Data/Managed/UnityEngine.GridModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1652148237170074, "dur":20969, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/ThrusterGame_Data/Managed/UnityEngine.DirectorModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1652148237191050, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1652148237191059, "dur":4511, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/ThrusterGame_Data/Managed/UnityEngine.DirectorModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1652148237195614, "dur":14780, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/ThrusterGame_Data/Managed/UnityEngine.ARModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1652148237210397, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1652148237210401, "dur":1611, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/ThrusterGame_Data/Managed/UnityEngine.ARModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1652148237212054, "dur":168927, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/ThrusterGame_Data/Managed/Unity.TextMeshPro.dll" }}
-,{ "pid":12345, "tid":2, "ts":1652148237380987, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1652148237380995, "dur":5078, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/ThrusterGame_Data/Managed/Unity.TextMeshPro.dll" }}
-,{ "pid":12345, "tid":2, "ts":1652148237386137, "dur":113536, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/ThrusterGame_Data/Managed/Mono.Security.dll" }}
-,{ "pid":12345, "tid":2, "ts":1652148237499676, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1652148237499682, "dur":1033, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/ThrusterGame_Data/Managed/Mono.Security.dll" }}
-,{ "pid":12345, "tid":2, "ts":1652148237500746, "dur":30218, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1652148236864768, "dur":286, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1652148236865055, "dur":4519, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1652148236869574, "dur":8861, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/MonoBleedingEdge/etc/mono/4.0/web.config" }}
-,{ "pid":12345, "tid":3, "ts":1652148236878438, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1652148236878488, "dur":2681, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/MonoBleedingEdge/etc/mono/4.0/web.config" }}
-,{ "pid":12345, "tid":3, "ts":1652148236881257, "dur":289, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
-,{ "pid":12345, "tid":3, "ts":1652148236881549, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1652148236881696, "dur":62982, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
-,{ "pid":12345, "tid":3, "ts":1652148236944730, "dur":64639, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/UnityCrashHandler32.exe" }}
-,{ "pid":12345, "tid":3, "ts":1652148237009373, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1652148237009378, "dur":1936, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/UnityCrashHandler32.exe" }}
-,{ "pid":12345, "tid":3, "ts":1652148237011379, "dur":60484, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/ThrusterGame_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1652148237071869, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1652148237071877, "dur":2144, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/ThrusterGame_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1652148237074065, "dur":23753, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/ThrusterGame_Data/Managed/UnityEngine.SubstanceModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1652148237097823, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1652148237097830, "dur":1256, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/ThrusterGame_Data/Managed/UnityEngine.SubstanceModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1652148237099130, "dur":18957, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/ThrusterGame_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1652148237118091, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1652148237118113, "dur":809, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/ThrusterGame_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1652148237118961, "dur":15542, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/ThrusterGame_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1652148237134508, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1652148237134514, "dur":1051, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/ThrusterGame_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1652148237135613, "dur":18806, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/ThrusterGame_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1652148237154425, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1652148237154434, "dur":1219, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/ThrusterGame_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1652148237155752, "dur":14564, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/ThrusterGame_Data/Managed/UnityEngine.GIModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1652148237170319, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1652148237170324, "dur":988, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/ThrusterGame_Data/Managed/UnityEngine.GIModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1652148237171350, "dur":13238, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/ThrusterGame_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1652148237184595, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1652148237184606, "dur":9599, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/ThrusterGame_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1652148237194261, "dur":31407, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/ThrusterGame_Data/Managed/UnityEngine.AudioModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1652148237225674, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1652148237225682, "dur":1447, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/ThrusterGame_Data/Managed/UnityEngine.AudioModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1652148237227175, "dur":54529, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/ThrusterGame_Data/Managed/System.Transactions.dll" }}
-,{ "pid":12345, "tid":3, "ts":1652148237281708, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1652148237281713, "dur":923, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/ThrusterGame_Data/Managed/System.Transactions.dll" }}
-,{ "pid":12345, "tid":3, "ts":1652148237282676, "dur":64811, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/ThrusterGame_Data/Managed/System.IO.Compression.dll" }}
-,{ "pid":12345, "tid":3, "ts":1652148237347490, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1652148237347496, "dur":1154, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/ThrusterGame_Data/Managed/System.IO.Compression.dll" }}
-,{ "pid":12345, "tid":3, "ts":1652148237348689, "dur":38018, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/ThrusterGame_Data/Managed/netstandard.dll" }}
-,{ "pid":12345, "tid":3, "ts":1652148237386711, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1652148237386717, "dur":1139, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/ThrusterGame_Data/Managed/netstandard.dll" }}
-,{ "pid":12345, "tid":3, "ts":1652148237387901, "dur":30991, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/ThrusterGame_Data/Managed/Assembly-CSharp.dll" }}
-,{ "pid":12345, "tid":3, "ts":1652148237418918, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1652148237418922, "dur":1616, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/ThrusterGame_Data/Managed/Assembly-CSharp.dll" }}
-,{ "pid":12345, "tid":3, "ts":1652148237420581, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/ThrusterGame_Data/level2" }}
-,{ "pid":12345, "tid":3, "ts":1652148237420628, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1652148237420630, "dur":1837, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/ThrusterGame_Data/level2" }}
-,{ "pid":12345, "tid":3, "ts":1652148237422524, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/ThrusterGame_Data/level1" }}
-,{ "pid":12345, "tid":3, "ts":1652148237422579, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1652148237422585, "dur":3644, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/ThrusterGame_Data/level1" }}
-,{ "pid":12345, "tid":3, "ts":1652148237426274, "dur":104684, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1652148236864804, "dur":260, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1652148236865064, "dur":4519, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1652148236869583, "dur":409, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
-,{ "pid":12345, "tid":4, "ts":1652148236869995, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1652148236951262, "dur":1642, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
-,{ "pid":12345, "tid":4, "ts":1652148236952961, "dur":18313, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/ThrusterGame_Data/Managed/UnityEngine.VRModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1652148236971281, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1652148236971383, "dur":1355, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/ThrusterGame_Data/Managed/UnityEngine.VRModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1652148236972816, "dur":29353, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/ThrusterGame_Data/Managed/UnityEngine.VFXModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1652148237002173, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1652148237002181, "dur":1061, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/ThrusterGame_Data/Managed/UnityEngine.VFXModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1652148237003282, "dur":15439, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/ThrusterGame_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1652148237018728, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1652148237018737, "dur":1923, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/ThrusterGame_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1652148237020725, "dur":25079, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/ThrusterGame_Data/Managed/UnityEngine.UIModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1652148237045810, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1652148237045846, "dur":1098, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/ThrusterGame_Data/Managed/UnityEngine.UIModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1652148237046987, "dur":40800, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/ThrusterGame_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1652148237087794, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1652148237087802, "dur":993, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/ThrusterGame_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1652148237088836, "dur":89094, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/ThrusterGame_Data/Managed/UnityEngine.StreamingModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1652148237177936, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1652148237177943, "dur":1478, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/ThrusterGame_Data/Managed/UnityEngine.StreamingModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1652148237179469, "dur":16377, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/ThrusterGame_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1652148237195849, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1652148237195855, "dur":1416, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/ThrusterGame_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1652148237197345, "dur":30216, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/ThrusterGame_Data/Managed/UnityEngine.AnimationModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1652148237227564, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1652148237227571, "dur":1821, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/ThrusterGame_Data/Managed/UnityEngine.AnimationModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1652148237229439, "dur":74178, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/ThrusterGame_Data/Managed/System.ServiceModel.Internals.dll" }}
-,{ "pid":12345, "tid":4, "ts":1652148237303621, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1652148237303625, "dur":1715, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/ThrusterGame_Data/Managed/System.ServiceModel.Internals.dll" }}
-,{ "pid":12345, "tid":4, "ts":1652148237305387, "dur":118769, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/ThrusterGame_Data/Managed/System.Drawing.dll" }}
-,{ "pid":12345, "tid":4, "ts":1652148237424160, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1652148237424165, "dur":1920, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/ThrusterGame_Data/Managed/System.Drawing.dll" }}
-,{ "pid":12345, "tid":4, "ts":1652148237426127, "dur":104834, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1652148236864835, "dur":236, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1652148236865071, "dur":4567, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1652148236869639, "dur":8287, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
-,{ "pid":12345, "tid":5, "ts":1652148236877929, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1652148236878254, "dur":2876, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
-,{ "pid":12345, "tid":5, "ts":1652148236881222, "dur":61758, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/MonoBleedingEdge/etc/mono/2.0/web.config" }}
-,{ "pid":12345, "tid":5, "ts":1652148236942987, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1652148236943557, "dur":1425, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/MonoBleedingEdge/etc/mono/2.0/web.config" }}
-,{ "pid":12345, "tid":5, "ts":1652148236945059, "dur":40214, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/ThrusterGame.exe" }}
-,{ "pid":12345, "tid":5, "ts":1652148236985280, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1652148236985286, "dur":2394, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/ThrusterGame.exe" }}
-,{ "pid":12345, "tid":5, "ts":1652148236987726, "dur":18653, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/ThrusterGame_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1652148237006385, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1652148237006394, "dur":2447, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/ThrusterGame_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1652148237008892, "dur":17138, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/ThrusterGame_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1652148237026034, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1652148237026040, "dur":1117, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/ThrusterGame_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1652148237027197, "dur":109571, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/ThrusterGame_Data/Managed/UnityEngine.UI.dll" }}
-,{ "pid":12345, "tid":5, "ts":1652148237136771, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1652148237136776, "dur":1739, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/ThrusterGame_Data/Managed/UnityEngine.UI.dll" }}
-,{ "pid":12345, "tid":5, "ts":1652148237138557, "dur":34244, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/ThrusterGame_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1652148237172806, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1652148237172812, "dur":1452, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/ThrusterGame_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1652148237174310, "dur":78110, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/ThrusterGame_Data/Managed/UnityEngine.CoreModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1652148237252426, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1652148237252434, "dur":8170, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/ThrusterGame_Data/Managed/UnityEngine.CoreModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1652148237260648, "dur":84654, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/ThrusterGame_Data/Managed/System.Numerics.dll" }}
-,{ "pid":12345, "tid":5, "ts":1652148237345308, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1652148237345316, "dur":1708, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/ThrusterGame_Data/Managed/System.Numerics.dll" }}
-,{ "pid":12345, "tid":5, "ts":1652148237347067, "dur":75803, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/ThrusterGame_Data/Managed/System.ComponentModel.Composition.dll" }}
-,{ "pid":12345, "tid":5, "ts":1652148237422874, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1652148237422880, "dur":2494, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/ThrusterGame_Data/Managed/System.ComponentModel.Composition.dll" }}
-,{ "pid":12345, "tid":5, "ts":1652148237425429, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/ThrusterGame_Data/globalgamemanagers" }}
-,{ "pid":12345, "tid":5, "ts":1652148237425475, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1652148237425479, "dur":1622, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/ThrusterGame_Data/globalgamemanagers" }}
-,{ "pid":12345, "tid":5, "ts":1652148237427146, "dur":103817, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1652148236864861, "dur":215, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1652148236865077, "dur":4491, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1652148236869568, "dur":396, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
-,{ "pid":12345, "tid":6, "ts":1652148236869966, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1652148236943205, "dur":6597, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
-,{ "pid":12345, "tid":6, "ts":1652148236949866, "dur":15234, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/ThrusterGame_Data/Managed/UnityEngine.WindModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1652148236965107, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1652148236965674, "dur":945, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/ThrusterGame_Data/Managed/UnityEngine.WindModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1652148236966661, "dur":29090, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/ThrusterGame_Data/Managed/UnityEngine.VideoModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1652148236995755, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1652148236995759, "dur":1752, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/ThrusterGame_Data/Managed/UnityEngine.VideoModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1652148236997558, "dur":21570, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/ThrusterGame_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1652148237019132, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1652148237019137, "dur":2305, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/ThrusterGame_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1652148237021487, "dur":31200, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/ThrusterGame_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1652148237052691, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1652148237052698, "dur":1661, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/ThrusterGame_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1652148237054402, "dur":44783, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/ThrusterGame_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1652148237099189, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1652148237099194, "dur":1480, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/ThrusterGame_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1652148237100716, "dur":16067, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/ThrusterGame_Data/Managed/UnityEngine.ProfilerModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1652148237116791, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1652148237116800, "dur":1074, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/ThrusterGame_Data/Managed/UnityEngine.ProfilerModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1652148237117914, "dur":37983, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/ThrusterGame_Data/Managed/UnityEngine.Physics2DModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1652148237155900, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1652148237155904, "dur":1379, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/ThrusterGame_Data/Managed/UnityEngine.Physics2DModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1652148237157326, "dur":22270, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/ThrusterGame_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1652148237179599, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1652148237179605, "dur":1030, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/ThrusterGame_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1652148237180677, "dur":24507, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/ThrusterGame_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1652148237205192, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1652148237205200, "dur":1707, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/ThrusterGame_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1652148237206955, "dur":24416, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/ThrusterGame_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1652148237231374, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1652148237231380, "dur":938, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/ThrusterGame_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1652148237232361, "dur":100079, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/ThrusterGame_Data/Managed/System.Runtime.Serialization.dll" }}
-,{ "pid":12345, "tid":6, "ts":1652148237332444, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1652148237332449, "dur":2738, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/ThrusterGame_Data/Managed/System.Runtime.Serialization.dll" }}
-,{ "pid":12345, "tid":6, "ts":1652148237335231, "dur":83650, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/ThrusterGame_Data/Managed/System.Core.dll" }}
-,{ "pid":12345, "tid":6, "ts":1652148237418884, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1652148237418889, "dur":4205, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/ThrusterGame_Data/Managed/System.Core.dll" }}
-,{ "pid":12345, "tid":6, "ts":1652148237423150, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/ThrusterGame_Data/level0" }}
-,{ "pid":12345, "tid":6, "ts":1652148237423201, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1652148237423204, "dur":2782, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/ThrusterGame_Data/level0" }}
-,{ "pid":12345, "tid":6, "ts":1652148237426036, "dur":104929, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1652148236864882, "dur":200, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1652148236865082, "dur":4488, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1652148236869571, "dur":336, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":7, "ts":1652148236869910, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1652148236877939, "dur":146352, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":7, "ts":1652148237024344, "dur":100085, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/ThrusterGame_Data/Managed/UnityEngine.UIElementsModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1652148237124435, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1652148237124443, "dur":1999, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/ThrusterGame_Data/Managed/UnityEngine.UIElementsModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1652148237126490, "dur":22066, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/ThrusterGame_Data/Managed/UnityEngine.LocalizationModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1652148237148559, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1652148237148566, "dur":1988, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/ThrusterGame_Data/Managed/UnityEngine.LocalizationModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1652148237150603, "dur":16996, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/ThrusterGame_Data/Managed/UnityEngine.HotReloadModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1652148237167603, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1652148237167608, "dur":2058, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/ThrusterGame_Data/Managed/UnityEngine.HotReloadModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1652148237169713, "dur":22411, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/ThrusterGame_Data/Managed/UnityEngine.dll" }}
-,{ "pid":12345, "tid":7, "ts":1652148237192128, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1652148237192133, "dur":3205, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/ThrusterGame_Data/Managed/UnityEngine.dll" }}
-,{ "pid":12345, "tid":7, "ts":1652148237195382, "dur":24112, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/ThrusterGame_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1652148237219502, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1652148237219536, "dur":1127, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/ThrusterGame_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1652148237220705, "dur":68870, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/ThrusterGame_Data/Managed/System.Xml.Linq.dll" }}
-,{ "pid":12345, "tid":7, "ts":1652148237289580, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1652148237289587, "dur":14904, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/ThrusterGame_Data/Managed/System.Xml.Linq.dll" }}
-,{ "pid":12345, "tid":7, "ts":1652148237304545, "dur":26398, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/ThrusterGame_Data/Managed/System.EnterpriseServices.dll" }}
-,{ "pid":12345, "tid":7, "ts":1652148237330950, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1652148237330958, "dur":2570, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/ThrusterGame_Data/Managed/System.EnterpriseServices.dll" }}
-,{ "pid":12345, "tid":7, "ts":1652148237333576, "dur":27459, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/ThrusterGame_Data/Managed/System.Data.DataSetExtensions.dll" }}
-,{ "pid":12345, "tid":7, "ts":1652148237361041, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1652148237361049, "dur":1409, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/ThrusterGame_Data/Managed/System.Data.DataSetExtensions.dll" }}
-,{ "pid":12345, "tid":7, "ts":1652148237362498, "dur":164933, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/ThrusterGame_Data/Managed/mscorlib.dll" }}
-,{ "pid":12345, "tid":7, "ts":1652148237527437, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1652148237527443, "dur":3451, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/ThrusterGame_Data/Managed/mscorlib.dll" }}
-,{ "pid":12345, "tid":7, "ts":1652148237530932, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
-,{ "pid":12345, "tid":7, "ts":1652148237530934, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1652148236864904, "dur":182, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1652148236865087, "dur":4477, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1652148236869568, "dur":181, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":8, "ts":1652148236869752, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1652148236873655, "dur":7584, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":8, "ts":1652148236881296, "dur":152, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":8, "ts":1652148236881450, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1652148236881675, "dur":138914, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":8, "ts":1652148237020658, "dur":15812, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/ThrusterGame_Data/Managed/UnityEngine.UmbraModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1652148237036473, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1652148237036479, "dur":872, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/ThrusterGame_Data/Managed/UnityEngine.UmbraModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1652148237037388, "dur":52976, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/ThrusterGame_Data/Managed/UnityEngine.TilemapModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1652148237090368, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1652148237090373, "dur":2583, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/ThrusterGame_Data/Managed/UnityEngine.TilemapModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1652148237093024, "dur":91566, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/ThrusterGame_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1652148237184596, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1652148237184606, "dur":9327, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/ThrusterGame_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1652148237193999, "dur":16035, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/ThrusterGame_Data/Managed/UnityEngine.ClothModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1652148237210039, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1652148237210045, "dur":2513, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/ThrusterGame_Data/Managed/UnityEngine.ClothModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1652148237212605, "dur":63699, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/ThrusterGame_Data/Managed/Unity.InputSystem.dll" }}
-,{ "pid":12345, "tid":8, "ts":1652148237276311, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1652148237276319, "dur":2945, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/ThrusterGame_Data/Managed/Unity.InputSystem.dll" }}
-,{ "pid":12345, "tid":8, "ts":1652148237279308, "dur":57169, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/ThrusterGame_Data/Managed/System.Net.Http.dll" }}
-,{ "pid":12345, "tid":8, "ts":1652148237336482, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1652148237336489, "dur":8250, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/ThrusterGame_Data/Managed/System.Net.Http.dll" }}
-,{ "pid":12345, "tid":8, "ts":1652148237344791, "dur":85266, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/ThrusterGame_Data/Managed/System.Configuration.dll" }}
-,{ "pid":12345, "tid":8, "ts":1652148237430061, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1652148237430067, "dur":1265, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/ThrusterGame_Data/Managed/System.Configuration.dll" }}
-,{ "pid":12345, "tid":8, "ts":1652148237431370, "dur":99596, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1652148236864931, "dur":160, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1652148236865091, "dur":4482, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1652148236869574, "dur":376, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":9, "ts":1652148236869953, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1652148236878887, "dur":2502, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":9, "ts":1652148236881463, "dur":211, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/MonoBleedingEdge/etc/mono/browscap.ini" }}
-,{ "pid":12345, "tid":9, "ts":1652148236881676, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1652148236881680, "dur":62032, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/MonoBleedingEdge/etc/mono/browscap.ini" }}
-,{ "pid":12345, "tid":9, "ts":1652148236943779, "dur":37203, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
-,{ "pid":12345, "tid":9, "ts":1652148236980988, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1652148236981409, "dur":5379, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
-,{ "pid":12345, "tid":9, "ts":1652148236986837, "dur":25361, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/ThrusterGame_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1652148237012204, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1652148237012211, "dur":1430, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/ThrusterGame_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1652148237013691, "dur":50083, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/ThrusterGame_Data/Managed/UnityEngine.UNETModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1652148237063781, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1652148237063789, "dur":1360, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/ThrusterGame_Data/Managed/UnityEngine.UNETModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1652148237065186, "dur":80274, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/ThrusterGame_Data/Managed/UnityEngine.TerrainModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1652148237145464, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1652148237145469, "dur":1546, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/ThrusterGame_Data/Managed/UnityEngine.TerrainModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1652148237147061, "dur":60367, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/ThrusterGame_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1652148237207432, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1652148237207438, "dur":1177, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/ThrusterGame_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1652148237208662, "dur":69314, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/ThrusterGame_Data/Managed/Unity.Timeline.dll" }}
-,{ "pid":12345, "tid":9, "ts":1652148237277980, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1652148237277986, "dur":2603, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/ThrusterGame_Data/Managed/Unity.Timeline.dll" }}
-,{ "pid":12345, "tid":9, "ts":1652148237280631, "dur":22837, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/ThrusterGame_Data/Managed/System.IO.Compression.FileSystem.dll" }}
-,{ "pid":12345, "tid":9, "ts":1652148237303474, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1652148237303482, "dur":2404, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/ThrusterGame_Data/Managed/System.IO.Compression.FileSystem.dll" }}
-,{ "pid":12345, "tid":9, "ts":1652148237305927, "dur":133229, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/ThrusterGame_Data/Managed/System.dll" }}
-,{ "pid":12345, "tid":9, "ts":1652148237439163, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1652148237439172, "dur":2848, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/ThrusterGame_Data/Managed/System.dll" }}
-,{ "pid":12345, "tid":9, "ts":1652148237442062, "dur":88925, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1652148236864960, "dur":136, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1652148236865096, "dur":4473, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1652148236869571, "dur":7977, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
-,{ "pid":12345, "tid":10, "ts":1652148236877554, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1652148236877950, "dur":3298, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
-,{ "pid":12345, "tid":10, "ts":1652148236881320, "dur":310, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/MonoBleedingEdge/etc/mono/config" }}
-,{ "pid":12345, "tid":10, "ts":1652148236881633, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1652148236881637, "dur":62783, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/MonoBleedingEdge/etc/mono/config" }}
-,{ "pid":12345, "tid":10, "ts":1652148236944467, "dur":470557, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/UnityPlayer.dll" }}
-,{ "pid":12345, "tid":10, "ts":1652148237415029, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1652148237415035, "dur":15628, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/UnityPlayer.dll" }}
-,{ "pid":12345, "tid":10, "ts":1652148237430734, "dur":100252, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1652148236864993, "dur":109, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1652148236865102, "dur":4564, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1652148236869667, "dur":318, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":11, "ts":1652148236869990, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1652148236947170, "dur":142637, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":11, "ts":1652148237089861, "dur":20716, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/ThrusterGame_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1652148237110584, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1652148237110593, "dur":2267, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/ThrusterGame_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1652148237112912, "dur":30910, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/ThrusterGame_Data/Managed/UnityEngine.PhysicsModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1652148237143829, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1652148237143838, "dur":1245, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/ThrusterGame_Data/Managed/UnityEngine.PhysicsModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1652148237145128, "dur":76431, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/ThrusterGame_Data/Managed/UnityEngine.IMGUIModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1652148237221562, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1652148237221569, "dur":1368, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/ThrusterGame_Data/Managed/UnityEngine.IMGUIModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1652148237222982, "dur":162205, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/ThrusterGame_Data/Managed/System.Xml.dll" }}
-,{ "pid":12345, "tid":11, "ts":1652148237385194, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1652148237385202, "dur":4373, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/ThrusterGame_Data/Managed/System.Xml.dll" }}
-,{ "pid":12345, "tid":11, "ts":1652148237389620, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/ThrusterGame_Data/Resources/unity_builtin_extra" }}
-,{ "pid":12345, "tid":11, "ts":1652148237389670, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1652148237389773, "dur":1483, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/ThrusterGame_Data/Resources/unity_builtin_extra" }}
-,{ "pid":12345, "tid":11, "ts":1652148237391303, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/ThrusterGame_Data/sharedassets6.assets" }}
-,{ "pid":12345, "tid":11, "ts":1652148237391350, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1652148237391355, "dur":1006, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/ThrusterGame_Data/sharedassets6.assets" }}
-,{ "pid":12345, "tid":11, "ts":1652148237392402, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/ThrusterGame_Data/sharedassets5.assets" }}
-,{ "pid":12345, "tid":11, "ts":1652148237392479, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1652148237392482, "dur":871, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/ThrusterGame_Data/sharedassets5.assets" }}
-,{ "pid":12345, "tid":11, "ts":1652148237393397, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/ThrusterGame_Data/sharedassets4.assets" }}
-,{ "pid":12345, "tid":11, "ts":1652148237393445, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1652148237393448, "dur":933, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/ThrusterGame_Data/sharedassets4.assets" }}
-,{ "pid":12345, "tid":11, "ts":1652148237394423, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/ThrusterGame_Data/sharedassets3.assets" }}
-,{ "pid":12345, "tid":11, "ts":1652148237394467, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1652148237394470, "dur":2972, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/ThrusterGame_Data/sharedassets3.assets" }}
-,{ "pid":12345, "tid":11, "ts":1652148237397484, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/ThrusterGame_Data/sharedassets0.assets.resS" }}
-,{ "pid":12345, "tid":11, "ts":1652148237397530, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1652148237397534, "dur":4380, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/ThrusterGame_Data/sharedassets0.assets.resS" }}
-,{ "pid":12345, "tid":11, "ts":1652148237401969, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/ThrusterGame_Data/resources.assets.resS" }}
-,{ "pid":12345, "tid":11, "ts":1652148237402038, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1652148237402042, "dur":4092, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/ThrusterGame_Data/resources.assets.resS" }}
-,{ "pid":12345, "tid":11, "ts":1652148237406253, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/ThrusterGame_Data/resources.assets" }}
-,{ "pid":12345, "tid":11, "ts":1652148237406313, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1652148237406320, "dur":2989, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/ThrusterGame_Data/resources.assets" }}
-,{ "pid":12345, "tid":11, "ts":1652148237409368, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/ThrusterGame_Data/level6.resS" }}
-,{ "pid":12345, "tid":11, "ts":1652148237409415, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1652148237409420, "dur":1701, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/ThrusterGame_Data/level6.resS" }}
-,{ "pid":12345, "tid":11, "ts":1652148237411167, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/ThrusterGame_Data/level6" }}
-,{ "pid":12345, "tid":11, "ts":1652148237411210, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1652148237411215, "dur":1926, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/ThrusterGame_Data/level6" }}
-,{ "pid":12345, "tid":11, "ts":1652148237413201, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/ThrusterGame_Data/level5.resS" }}
-,{ "pid":12345, "tid":11, "ts":1652148237413247, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1652148237413252, "dur":1584, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/ThrusterGame_Data/level5.resS" }}
-,{ "pid":12345, "tid":11, "ts":1652148237414880, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/ThrusterGame_Data/level5" }}
-,{ "pid":12345, "tid":11, "ts":1652148237414925, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1652148237414930, "dur":1508, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/ThrusterGame_Data/level5" }}
-,{ "pid":12345, "tid":11, "ts":1652148237416481, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/ThrusterGame_Data/level4.resS" }}
-,{ "pid":12345, "tid":11, "ts":1652148237416529, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1652148237416533, "dur":1919, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/ThrusterGame_Data/level4.resS" }}
-,{ "pid":12345, "tid":11, "ts":1652148237418506, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/ThrusterGame_Data/level3" }}
-,{ "pid":12345, "tid":11, "ts":1652148237418563, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1652148237418567, "dur":2100, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/ThrusterGame_Data/level3" }}
-,{ "pid":12345, "tid":11, "ts":1652148237421045, "dur":315, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/ThrusterGame_Data/level1.resS" }}
-,{ "pid":12345, "tid":11, "ts":1652148237421363, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1652148237421366, "dur":2692, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/ThrusterGame_Data/level1.resS" }}
-,{ "pid":12345, "tid":11, "ts":1652148237424119, "dur":103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/ThrusterGame_Data/globalgamemanagers.assets" }}
-,{ "pid":12345, "tid":11, "ts":1652148237424224, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1652148237424228, "dur":1817, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/ThrusterGame_Data/globalgamemanagers.assets" }}
-,{ "pid":12345, "tid":11, "ts":1652148237426094, "dur":104865, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1652148236865020, "dur":86, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1652148236865106, "dur":4460, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1652148236869572, "dur":8664, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/MonoBleedingEdge/etc/mono/4.5/web.config" }}
-,{ "pid":12345, "tid":12, "ts":1652148236878240, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1652148236878246, "dur":2930, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/MonoBleedingEdge/etc/mono/4.5/web.config" }}
-,{ "pid":12345, "tid":12, "ts":1652148236881271, "dur":61824, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
-,{ "pid":12345, "tid":12, "ts":1652148236943099, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1652148236943667, "dur":1633, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
-,{ "pid":12345, "tid":12, "ts":1652148236945345, "dur":49662, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/ThrusterGame_Data/Managed/UnityEngine.XRModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1652148236995013, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1652148236995022, "dur":3927, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/ThrusterGame_Data/Managed/UnityEngine.XRModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1652148236998993, "dur":28742, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/ThrusterGame_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1652148237027738, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1652148237027744, "dur":8234, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/ThrusterGame_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1652148237036021, "dur":18808, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/ThrusterGame_Data/Managed/UnityEngine.TLSModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1652148237054832, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1652148237054838, "dur":1404, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/ThrusterGame_Data/Managed/UnityEngine.TLSModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1652148237056283, "dur":43034, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/ThrusterGame_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1652148237099321, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1652148237099325, "dur":1132, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/ThrusterGame_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1652148237100500, "dur":18299, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/ThrusterGame_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1652148237118803, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1652148237118808, "dur":918, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/ThrusterGame_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1652148237119769, "dur":35738, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/ThrusterGame_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1652148237155511, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1652148237155517, "dur":1583, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/ThrusterGame_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1652148237157146, "dur":40722, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/ThrusterGame_Data/Managed/UnityEngine.GameCenterModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1652148237197871, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1652148237197878, "dur":1157, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/ThrusterGame_Data/Managed/UnityEngine.GameCenterModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1652148237199141, "dur":123086, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/ThrusterGame_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1652148237322233, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1652148237322242, "dur":1917, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/ThrusterGame_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1652148237324202, "dur":139691, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/ThrusterGame_Data/Managed/System.Data.dll" }}
-,{ "pid":12345, "tid":12, "ts":1652148237463899, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1652148237463906, "dur":2118, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/ThrusterGame_Data/Managed/System.Data.dll" }}
-,{ "pid":12345, "tid":12, "ts":1652148237466053, "dur":64935, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1652148237534839, "dur":1700, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid":12345, "tid":0, "ts":1652196912389332, "dur":1348, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1652196912390688, "dur":64, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1652196912390763, "dur":11, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1652196912390775, "dur":515, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1652196912391320, "dur":552, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1652196912391872, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1652196912539276, "dur":285, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1652196912539562, "dur":18, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1652196912539580, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1652196912539581, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1652196912539588, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1652196912539590, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1652196912539596, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1652196912539597, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1652196912539603, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1652196912539604, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1652196912539610, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1652196912539611, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1652196912539617, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1652196912539618, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1652196912539624, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1652196912539626, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1652196912539630, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1652196912539632, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1652196912539637, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1652196912539638, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1652196912539645, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1652196912539647, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1652196912539652, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1652196912539654, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1652196912539659, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1652196912539675, "dur":24, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1652196912539703, "dur":1598, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1652196912391401, "dur":477, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1652196912391880, "dur":4830, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1652196912396726, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1652196912396727, "dur":461, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1652196912397191, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/ThrusterGame_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1652196912397193, "dur":195, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1652196912397389, "dur":250, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":1, "ts":1652196912397639, "dur":117, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1652196912397756, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/ThrusterGame_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1652196912397819, "dur":95, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1652196912397915, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/ThrusterGame_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1652196912397974, "dur":276, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1652196912398251, "dur":109, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/ThrusterGame_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1652196912398360, "dur":256, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1652196912398616, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/ThrusterGame_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1652196912398688, "dur":227, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1652196912398916, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/ThrusterGame_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1652196912398979, "dur":177, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1652196912399157, "dur":95, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/ThrusterGame_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1652196912399252, "dur":199, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1652196912399452, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/ThrusterGame_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1652196912399511, "dur":106, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1652196912399617, "dur":157, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/ThrusterGame_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1652196912399774, "dur":357, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1652196912400132, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/ThrusterGame_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":1, "ts":1652196912400207, "dur":185, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1652196912400394, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/ThrusterGame_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":1, "ts":1652196912400473, "dur":101, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1652196912400575, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/ThrusterGame_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":1, "ts":1652196912400637, "dur":203, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1652196912400841, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/ThrusterGame_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":1, "ts":1652196912400894, "dur":74, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1652196912400969, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/ThrusterGame_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":1, "ts":1652196912401077, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1652196912401902, "dur":4126, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/ThrusterGame_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":1, "ts":1652196912406085, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/ThrusterGame_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1652196912406149, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1652196912406154, "dur":3827, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/ThrusterGame_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1652196912410057, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/ThrusterGame_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1652196912410115, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1652196912410118, "dur":1594, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/ThrusterGame_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1652196912411758, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/ThrusterGame_Data/level7" }}
+,{ "pid":12345, "tid":1, "ts":1652196912411805, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1652196912411808, "dur":3630, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/ThrusterGame_Data/level7" }}
+,{ "pid":12345, "tid":1, "ts":1652196912415538, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/ThrusterGame_Data/level5.resS" }}
+,{ "pid":12345, "tid":1, "ts":1652196912415588, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1652196912415592, "dur":67751, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/ThrusterGame_Data/level5.resS" }}
+,{ "pid":12345, "tid":1, "ts":1652196912483406, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/ThrusterGame_Data/level1.resS" }}
+,{ "pid":12345, "tid":1, "ts":1652196912483462, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1652196912483467, "dur":2925, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/ThrusterGame_Data/level1.resS" }}
+,{ "pid":12345, "tid":1, "ts":1652196912487780, "dur":51499, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1652196912391403, "dur":480, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1652196912391883, "dur":4835, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1652196912396726, "dur":1304, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1652196912398030, "dur":268, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1652196912398299, "dur":450, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/ThrusterGame_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1652196912398749, "dur":144, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1652196912398894, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/ThrusterGame_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1652196912398980, "dur":123, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1652196912399104, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/ThrusterGame_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1652196912399167, "dur":616, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1652196912399783, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/ThrusterGame_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1652196912399864, "dur":453, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1652196912400317, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/ThrusterGame_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1652196912400382, "dur":125, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1652196912400508, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/ThrusterGame_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":2, "ts":1652196912400590, "dur":1035, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1652196912401626, "dur":85, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/ThrusterGame_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":2, "ts":1652196912401716, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1652196912482881, "dur":4201, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/ThrusterGame_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":2, "ts":1652196912487166, "dur":52101, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1652196912391435, "dur":453, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1652196912391888, "dur":4828, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1652196912396727, "dur":262, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":3, "ts":1652196912396990, "dur":303, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1652196912397294, "dur":250, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":3, "ts":1652196912397544, "dur":243, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1652196912397788, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/ThrusterGame_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1652196912397874, "dur":213, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1652196912398088, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/ThrusterGame_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1652196912398159, "dur":183, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1652196912398343, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/ThrusterGame_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1652196912398415, "dur":114, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1652196912398529, "dur":855, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/ThrusterGame_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1652196912399384, "dur":114, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1652196912399499, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/ThrusterGame_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1652196912399572, "dur":573, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1652196912400146, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/ThrusterGame_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":3, "ts":1652196912400228, "dur":1070, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1652196912401298, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/ThrusterGame_Data/sharedassets5.assets" }}
+,{ "pid":12345, "tid":3, "ts":1652196912401356, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1652196912409222, "dur":2855, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/ThrusterGame_Data/sharedassets5.assets" }}
+,{ "pid":12345, "tid":3, "ts":1652196912412119, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/ThrusterGame_Data/level6.resS" }}
+,{ "pid":12345, "tid":3, "ts":1652196912412187, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1652196912412190, "dur":69826, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/ThrusterGame_Data/level6.resS" }}
+,{ "pid":12345, "tid":3, "ts":1652196912482080, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/ThrusterGame_Data/level4" }}
+,{ "pid":12345, "tid":3, "ts":1652196912482138, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1652196912482141, "dur":2795, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/ThrusterGame_Data/level4" }}
+,{ "pid":12345, "tid":3, "ts":1652196912485029, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/ThrusterGame_Data/level0" }}
+,{ "pid":12345, "tid":3, "ts":1652196912485094, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1652196912485097, "dur":2623, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/ThrusterGame_Data/level0" }}
+,{ "pid":12345, "tid":3, "ts":1652196912487784, "dur":51507, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1652196912391454, "dur":438, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1652196912391892, "dur":4825, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1652196912396726, "dur":164, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1652196912396891, "dur":106, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1652196912397000, "dur":143, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1652196912397143, "dur":102, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1652196912397246, "dur":247, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":4, "ts":1652196912397493, "dur":116, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1652196912397610, "dur":127, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/ThrusterGame_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":4, "ts":1652196912397738, "dur":112, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1652196912397851, "dur":95, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/ThrusterGame_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1652196912397946, "dur":175, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1652196912398121, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/ThrusterGame_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1652196912398212, "dur":106, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1652196912398319, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/ThrusterGame_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1652196912398382, "dur":95, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1652196912398478, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/ThrusterGame_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1652196912398558, "dur":210, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1652196912398769, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/ThrusterGame_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1652196912398848, "dur":124, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1652196912398972, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/ThrusterGame_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1652196912399053, "dur":95, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1652196912399149, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/ThrusterGame_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1652196912399213, "dur":224, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1652196912399438, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/ThrusterGame_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":4, "ts":1652196912399505, "dur":264, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1652196912399770, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/ThrusterGame_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1652196912399852, "dur":110, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1652196912399963, "dur":82267, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/ThrusterGame_Data/Managed/Unity.InputSystem.dll" }}
+,{ "pid":12345, "tid":4, "ts":1652196912482231, "dur":113, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1652196912482346, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/ThrusterGame_Data/level3" }}
+,{ "pid":12345, "tid":4, "ts":1652196912482408, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1652196912482411, "dur":3016, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/ThrusterGame_Data/level3" }}
+,{ "pid":12345, "tid":4, "ts":1652196912485502, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/ThrusterGame_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":4, "ts":1652196912485584, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1652196912485588, "dur":2059, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/ThrusterGame_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":4, "ts":1652196912487713, "dur":51563, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1652196912391477, "dur":420, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1652196912391897, "dur":4825, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1652196912396726, "dur":744, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1652196912397470, "dur":160, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1652196912397632, "dur":111, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/ThrusterGame_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1652196912397744, "dur":318, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1652196912398063, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/ThrusterGame_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1652196912398128, "dur":120, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1652196912398249, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/ThrusterGame_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1652196912398313, "dur":100, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1652196912398414, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/ThrusterGame_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1652196912398481, "dur":322, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1652196912398803, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/ThrusterGame_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1652196912398872, "dur":291, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1652196912399164, "dur":95, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/ThrusterGame_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1652196912399260, "dur":788, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1652196912400049, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/ThrusterGame_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":5, "ts":1652196912400140, "dur":296, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1652196912400437, "dur":83, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/ThrusterGame_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":5, "ts":1652196912400520, "dur":147, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1652196912400668, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/ThrusterGame_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":5, "ts":1652196912400735, "dur":771, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1652196912401506, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/ThrusterGame_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":5, "ts":1652196912401590, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1652196912481882, "dur":2677, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/ThrusterGame_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":5, "ts":1652196912484624, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/ThrusterGame_Data/level0.resS" }}
+,{ "pid":12345, "tid":5, "ts":1652196912484683, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1652196912484687, "dur":2658, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/ThrusterGame_Data/level0.resS" }}
+,{ "pid":12345, "tid":5, "ts":1652196912487398, "dur":51868, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1652196912391526, "dur":377, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1652196912391903, "dur":4833, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1652196912396736, "dur":280, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1652196912397016, "dur":108, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1652196912397125, "dur":308, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1652196912397433, "dur":140, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1652196912397574, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/ThrusterGame.exe" }}
+,{ "pid":12345, "tid":6, "ts":1652196912397665, "dur":119, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1652196912397785, "dur":106, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/ThrusterGame_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1652196912397891, "dur":144, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1652196912398036, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/ThrusterGame_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1652196912398110, "dur":428, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1652196912398539, "dur":88, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/ThrusterGame_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1652196912398627, "dur":449, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1652196912399077, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/ThrusterGame_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1652196912399164, "dur":504, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1652196912399669, "dur":230, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/ThrusterGame_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1652196912399900, "dur":113, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1652196912400014, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/ThrusterGame_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":6, "ts":1652196912400090, "dur":337, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1652196912400428, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/ThrusterGame_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":6, "ts":1652196912400518, "dur":115, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1652196912400633, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/ThrusterGame_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1652196912400688, "dur":742, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1652196912401431, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/ThrusterGame_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":6, "ts":1652196912401500, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1652196912411276, "dur":2810, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/ThrusterGame_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":6, "ts":1652196912414148, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/ThrusterGame_Data/level6" }}
+,{ "pid":12345, "tid":6, "ts":1652196912414208, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1652196912414212, "dur":68670, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/ThrusterGame_Data/level6" }}
+,{ "pid":12345, "tid":6, "ts":1652196912482929, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/ThrusterGame_Data/level2" }}
+,{ "pid":12345, "tid":6, "ts":1652196912482981, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1652196912482983, "dur":4749, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/ThrusterGame_Data/level2" }}
+,{ "pid":12345, "tid":6, "ts":1652196912487783, "dur":51500, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1652196912391543, "dur":363, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1652196912391907, "dur":4919, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1652196912396826, "dur":174, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1652196912397000, "dur":123, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1652196912397124, "dur":252, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1652196912397377, "dur":104, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1652196912397482, "dur":121, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":7, "ts":1652196912397604, "dur":248, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1652196912397853, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/ThrusterGame_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1652196912397931, "dur":138, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1652196912398069, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/ThrusterGame_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1652196912398140, "dur":251, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1652196912398392, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/ThrusterGame_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1652196912398469, "dur":249, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1652196912398719, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/ThrusterGame_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1652196912398782, "dur":204, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1652196912398987, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/ThrusterGame_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1652196912399075, "dur":138, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1652196912399214, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/ThrusterGame_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1652196912399301, "dur":227, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1652196912399529, "dur":147, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/ThrusterGame_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1652196912399677, "dur":212, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1652196912399890, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/ThrusterGame_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1652196912399969, "dur":188, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1652196912400158, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/ThrusterGame_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":7, "ts":1652196912400240, "dur":254, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1652196912400495, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/ThrusterGame_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":7, "ts":1652196912400558, "dur":211, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1652196912400770, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/ThrusterGame_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":7, "ts":1652196912400843, "dur":83, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1652196912400927, "dur":80470, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/ThrusterGame_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":7, "ts":1652196912481409, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1652196912481474, "dur":2367, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/ThrusterGame_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":7, "ts":1652196912483920, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/ThrusterGame_Data/level1" }}
+,{ "pid":12345, "tid":7, "ts":1652196912483986, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1652196912483989, "dur":3659, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/ThrusterGame_Data/level1" }}
+,{ "pid":12345, "tid":7, "ts":1652196912487737, "dur":51548, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1652196912391573, "dur":338, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1652196912391911, "dur":4915, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1652196912396827, "dur":362, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1652196912397190, "dur":312, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1652196912397503, "dur":135, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/UnityCrashHandler32.exe" }}
+,{ "pid":12345, "tid":8, "ts":1652196912397638, "dur":261, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1652196912397900, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/ThrusterGame_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1652196912397962, "dur":113, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1652196912398076, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/ThrusterGame_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1652196912398143, "dur":116, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1652196912398260, "dur":94481, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/ThrusterGame_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":8, "ts":1652196912492742, "dur":102, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1652196912492847, "dur":46428, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1652196912391600, "dur":314, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1652196912391914, "dur":4806, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1652196912396728, "dur":319, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":9, "ts":1652196912397048, "dur":138, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1652196912397188, "dur":1085, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":9, "ts":1652196912398273, "dur":254, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1652196912398528, "dur":111, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/ThrusterGame_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1652196912398639, "dur":1184, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1652196912399824, "dur":133, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/ThrusterGame_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1652196912399957, "dur":413, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1652196912400372, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/ThrusterGame_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":9, "ts":1652196912400428, "dur":160, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1652196912400589, "dur":166, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/ThrusterGame_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":9, "ts":1652196912400755, "dur":157, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1652196912400913, "dur":147, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/ThrusterGame_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":9, "ts":1652196912401060, "dur":108, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1652196912401169, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/ThrusterGame_Data/sharedassets6.assets" }}
+,{ "pid":12345, "tid":9, "ts":1652196912401243, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1652196912404292, "dur":4241, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/ThrusterGame_Data/sharedassets6.assets" }}
+,{ "pid":12345, "tid":9, "ts":1652196912408588, "dur":163, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/ThrusterGame_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":9, "ts":1652196912408752, "dur":105, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1652196912408858, "dur":2735, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/ThrusterGame_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":9, "ts":1652196912411594, "dur":101, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1652196912411696, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/ThrusterGame_Data/level7.resS" }}
+,{ "pid":12345, "tid":9, "ts":1652196912411748, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1652196912411752, "dur":71051, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/ThrusterGame_Data/level7.resS" }}
+,{ "pid":12345, "tid":9, "ts":1652196912482857, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/ThrusterGame_Data/level2.resS" }}
+,{ "pid":12345, "tid":9, "ts":1652196912482911, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1652196912482914, "dur":3372, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/ThrusterGame_Data/level2.resS" }}
+,{ "pid":12345, "tid":9, "ts":1652196912486340, "dur":152, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/ThrusterGame_Data/boot.config" }}
+,{ "pid":12345, "tid":9, "ts":1652196912486493, "dur":130, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1652196912486624, "dur":52647, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1652196912391635, "dur":283, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1652196912391918, "dur":4810, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1652196912396729, "dur":244, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":10, "ts":1652196912396974, "dur":315, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1652196912397290, "dur":426, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":10, "ts":1652196912397716, "dur":133, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1652196912397850, "dur":83, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/ThrusterGame_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1652196912397933, "dur":188, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1652196912398122, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/ThrusterGame_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1652196912398213, "dur":193, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1652196912398407, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/ThrusterGame_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1652196912398469, "dur":236, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1652196912398706, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/ThrusterGame_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1652196912398757, "dur":183, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1652196912398940, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/ThrusterGame_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1652196912399026, "dur":184, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1652196912399211, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/ThrusterGame_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1652196912399301, "dur":154, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1652196912399455, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/ThrusterGame_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1652196912399536, "dur":110, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1652196912399647, "dur":125, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/ThrusterGame_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1652196912399772, "dur":122, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1652196912399895, "dur":159, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/ThrusterGame_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1652196912400054, "dur":118, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1652196912400172, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/ThrusterGame_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":10, "ts":1652196912400248, "dur":420, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1652196912400669, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/ThrusterGame_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":10, "ts":1652196912400731, "dur":343, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1652196912401076, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/ThrusterGame_Data/sharedassets7.assets" }}
+,{ "pid":12345, "tid":10, "ts":1652196912401151, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1652196912402480, "dur":3156, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/ThrusterGame_Data/sharedassets7.assets" }}
+,{ "pid":12345, "tid":10, "ts":1652196912405686, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/ThrusterGame_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":10, "ts":1652196912405801, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1652196912405805, "dur":2410, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/ThrusterGame_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":10, "ts":1652196912408414, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/ThrusterGame_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":10, "ts":1652196912408489, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1652196912408496, "dur":2728, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/ThrusterGame_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":10, "ts":1652196912411276, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/ThrusterGame_Data/resources.assets" }}
+,{ "pid":12345, "tid":10, "ts":1652196912411351, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1652196912411355, "dur":3987, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/ThrusterGame_Data/resources.assets" }}
+,{ "pid":12345, "tid":10, "ts":1652196912481407, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/ThrusterGame_Data/level5" }}
+,{ "pid":12345, "tid":10, "ts":1652196912481479, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1652196912481482, "dur":6412, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/ThrusterGame_Data/level5" }}
+,{ "pid":12345, "tid":10, "ts":1652196912487945, "dur":51333, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1652196912391660, "dur":271, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1652196912391932, "dur":4889, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1652196912396822, "dur":152, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":11, "ts":1652196912396974, "dur":104, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1652196912397079, "dur":289, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":11, "ts":1652196912397368, "dur":268, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1652196912397636, "dur":126, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/ThrusterGame_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1652196912397762, "dur":150, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1652196912397913, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/ThrusterGame_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1652196912397975, "dur":157, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1652196912398133, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/ThrusterGame_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1652196912398213, "dur":440, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1652196912398654, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/ThrusterGame_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1652196912398719, "dur":92, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1652196912398812, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/ThrusterGame_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1652196912398877, "dur":467, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1652196912399356, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/ThrusterGame_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1652196912399427, "dur":111, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1652196912399539, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/ThrusterGame_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1652196912399607, "dur":290, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1652196912399898, "dur":81613, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/ThrusterGame_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":11, "ts":1652196912481511, "dur":111, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1652196912481623, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/ThrusterGame_Data/level4.resS" }}
+,{ "pid":12345, "tid":11, "ts":1652196912481699, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1652196912481701, "dur":4010, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/ThrusterGame_Data/level4.resS" }}
+,{ "pid":12345, "tid":11, "ts":1652196912485794, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/ThrusterGame_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":11, "ts":1652196912485898, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1652196912485922, "dur":1856, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Builds/ThrusterGame_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":11, "ts":1652196912487837, "dur":51436, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1652196912391686, "dur":249, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1652196912391935, "dur":4805, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1652196912396741, "dur":1581, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":12, "ts":1652196912398323, "dur":105, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1652196912398428, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/ThrusterGame_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1652196912398483, "dur":601, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1652196912399086, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/ThrusterGame_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1652196912399163, "dur":781, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1652196912399945, "dur":139154, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Builds/ThrusterGame_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":12, "ts":1652196912539101, "dur":137, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1652196912539243, "dur":0, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":12, "ts":1652196912539243, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1652196912543035, "dur":1285, "ph":"X", "name": "ProfilerWriteOutput" }
 ,

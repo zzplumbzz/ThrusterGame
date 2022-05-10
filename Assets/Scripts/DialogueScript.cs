@@ -9,6 +9,8 @@ public class DialogueScript : MonoBehaviour
     public GameObject dialogueBox;
     public TMP_Text dialogueText;
     public string dialogue;
+
+    public string assist = "Press E";
     public bool dialogueActive;
 
     // Start is called before the first frame update
@@ -27,6 +29,7 @@ public class DialogueScript : MonoBehaviour
             if (dialogueBox.activeInHierarchy)
             {
                 dialogueBox.SetActive(true);
+                dialogueText.text = dialogue;
             }
             else
             {
@@ -41,8 +44,11 @@ public class DialogueScript : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
+            dialogueText.text = assist;
+
             Debug.Log("Player in range");
             dialogueActive = true;
+            dialogueBox.SetActive(true);
         }
     }
 
@@ -53,6 +59,7 @@ public class DialogueScript : MonoBehaviour
             Debug.Log("Player Out Of Range");
             dialogueActive = false;
             dialogueBox.SetActive(false);
+            
         }
     }
 }

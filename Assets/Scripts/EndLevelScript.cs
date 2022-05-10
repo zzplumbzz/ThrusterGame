@@ -2,22 +2,21 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-using TMPro;
 using UnityEngine.SceneManagement;
+using TMPro;
 
-public class ShopDoorScript : MonoBehaviour
+public class EndLevelScript : MonoBehaviour
 {
-    public GameObject player;
-    public GameObject playerSpawn;
-     public GameObject dialogueBox;
-    public TMP_Text dialogueText;
-    public string dialogue;
-    public bool dialogueActive;
 
-    // Start is called before the first frame update
+    public GameObject dialogueBox;
+    public TMP_Text dialogueText;
+    public string assist = "Press E To Return To The Ship";
+    public bool dialogueActive;
     void Start()
     {
-        player.transform.position = playerSpawn.transform.position;
+        dialogueActive = false;
+        dialogueBox.SetActive(false);
+        
     }
 
     // Update is called once per frame
@@ -28,27 +27,22 @@ public class ShopDoorScript : MonoBehaviour
             if (dialogueBox.activeInHierarchy)
             {
                 dialogueBox.SetActive(true);
+                SceneManager.LoadScene("ShipScene");
             }
-            else
-            {
-                dialogueBox.SetActive(true);
-                dialogueText.text = dialogue;
-            }
-
-            if (Input.GetKeyDown(KeyCode.E) && dialogueBox == true)
-            {
-                dialogueBox.SetActive(false);
-            }
-
+            
         }
+
     }
 
-    void OnTriggerEnter(Collider other)
+    private void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("Player") && Input.GetKeyDown(KeyCode.E))
+        if (other.CompareTag("Player"))
         {
-            SceneManager.LoadScene("LevelSelect");
-            
+            dialogueText.text = assist;
+
+            Debug.Log("Player in range");
+            dialogueActive = true;
+            dialogueBox.SetActive(true);
         }
     }
 
@@ -59,6 +53,8 @@ public class ShopDoorScript : MonoBehaviour
             Debug.Log("Player Out Of Range");
             dialogueActive = false;
             dialogueBox.SetActive(false);
+            
         }
     }
+   
 }
