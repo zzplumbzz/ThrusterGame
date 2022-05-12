@@ -417,21 +417,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 656323231}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d07d2bf678a2fc94ea5547c40ca69943, type: 3}
+  m_Script: {fileID: 11500000, guid: 15f7008ac3080d7428fc33dfe53488b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Flame1: {fileID: 0}
-  Flame2: {fileID: 0}
-  Flame3: {fileID: 0}
-  thrust: 40
-  rb: {fileID: 0}
-  playerSpeed: 25
-  maxPlayerSpeed: 50
-  moneyTXT: {fileID: 0}
-  livesTXT: {fileID: 0}
-  currentCheckpoint: {fileID: 0}
-  isThrusting: 0
-  PMS: {fileID: 0}
+  pauseMenuCanvas: {fileID: 0}
 --- !u!1 &719733109
 GameObject:
   m_ObjectHideFlags: 0
@@ -678,7 +667,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 656323236}
-        m_TargetAssemblyTypeName: PlayerScript, Assembly-CSharp
+        m_TargetAssemblyTypeName: PauseMenuScript, Assembly-CSharp
         m_MethodName: LoadGame
         m_Mode: 1
         m_Arguments:

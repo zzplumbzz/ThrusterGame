@@ -55,6 +55,8 @@
      <Compile Include="Assets\Scripts\PlayerScript.cs" />
      <Compile Include="Assets\Scripts\MoneyScript.cs" />
      <Compile Include="Assets\Scripts\ShipScript.cs" />
+     <Compile Include="Assets\Scripts\ShipDoorScript.cs" />
+     <Compile Include="Assets\Scripts\ShipDoor2Script.cs" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />

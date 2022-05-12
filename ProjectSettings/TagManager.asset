@@ -10,6 +10,8 @@ TagManager:
   - Money
   - Flame
   - Gun
+  - UpperDoor
+  - LowerDoor
   layers:
   - Default
   - TransparentFX

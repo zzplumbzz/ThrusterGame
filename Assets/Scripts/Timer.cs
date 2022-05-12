@@ -8,6 +8,7 @@ using UnityEngine.SceneManagement;
 public class Timer : MonoBehaviour
 {
     public float LevelTimer;
+    
     public TMP_Text TimeText;
 
     // Start is called before the first frame update
@@ -16,6 +17,7 @@ public class Timer : MonoBehaviour
         
 
         LevelTimer = 0;
+       
 
     }
 
@@ -23,12 +25,11 @@ public class Timer : MonoBehaviour
     void Update()
     {
 
-       LevelTimer += Time.deltaTime;//starts the count down
-
+        LevelTimer += Time.deltaTime;//starts the count down
+        
 
         TimeText.text = (LevelTimer).ToString("0");//turns countdown to text
-
-       
+        
 
 
 

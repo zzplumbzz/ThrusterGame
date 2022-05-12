@@ -31,11 +31,7 @@ public class DialogueScript : MonoBehaviour
                 dialogueBox.SetActive(true);
                 dialogueText.text = dialogue;
             }
-            else
-            {
-                dialogueBox.SetActive(true);
-                dialogueText.text = dialogue;
-            }
+            
         }
 
     }

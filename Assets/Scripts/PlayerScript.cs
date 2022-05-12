@@ -21,9 +21,9 @@ public class PlayerScript : MonoBehaviour
     public float maxPlayerSpeed = 50.0f;
     private Vector3 moveDirection = Vector3.zero;
     
-    public static float money;
+    public float money;
     public TMP_Text moneyTXT;
-    public static float lives = 3f;
+    public float lives = 3f;
     
     public TMP_Text livesTXT;
 
@@ -86,7 +86,7 @@ public class PlayerScript : MonoBehaviour
         targetVelocity = rb.transform.TransformDirection(targetVelocity);
         targetVelocity *= playerSpeed;
 
-        // Apply a force that attempts to reach target velocity
+        // // Apply a force that attempts to reach target velocity
         Vector3 velocity = rb.velocity;
         Vector3 velocityChange = (targetVelocity - velocity);
         velocityChange.x = Mathf.Clamp(velocityChange.x, -maxPlayerSpeed, maxPlayerSpeed);
@@ -94,6 +94,11 @@ public class PlayerScript : MonoBehaviour
         velocityChange.y = 0;
         rb.AddForce(velocityChange, ForceMode.VelocityChange);
 
+        // float moveHorizontal = Input.GetAxisRaw ("Horizontal");
+        // Vector3 movement = new Vector3(moveHorizontal, 0.0f, 0.0f);
+        // transform.rotation = Quaternion.LookRotation(movement);//Quaternion.LookRotation
+        // transform.Translate (movement * playerSpeed * Time.deltaTime, Space.World);
+        // Debug.Log(moveHorizontal);
     }
 
     public void Update()
@@ -126,7 +131,7 @@ public class PlayerScript : MonoBehaviour
             GameObject lazerClone = Instantiate(lazer, gunBarrel.transform.position, Quaternion.identity) as GameObject;
             Rigidbody lazerPrefabRigidBody = lazerClone.GetComponent<Rigidbody>();
             lazerPrefabRigidBody.AddForce(Vector3.right * lazerSpeed, ForceMode.Impulse);
-            if(Time.deltaTime == lazerLifeTime)
+            if(Time.deltaTime >= 3)
             {
             Destroy(lazer);
             Destroy(lazerClone);
@@ -206,21 +211,26 @@ public class PlayerScript : MonoBehaviour
         }
     }
 
-    public void SaveGame()
+    void OnCollision()
     {
-        PlayerPrefs.SetFloat("SavedMoney", money);
-        PlayerPrefs.SetFloat("SavedLives", lives);
-        PlayerPrefs.Save();
-        Debug.Log("Game data saved!");
+
     }
 
-    public void LoadGame()
-    {
+    // public void SaveGame()
+    // {
+    //     PlayerPrefs.SetFloat("money", money);
+    //     PlayerPrefs.SetFloat("lives", lives);
+    //     PlayerPrefs.Save();
+    //     Debug.Log("Game data saved!");
+    // }
+
+    // public void LoadGame()
+    // {
 	
-		PlayerPrefs.GetFloat("SavedMoney");
-		PlayerPrefs.GetFloat("SavedLives");
-		Debug.Log("Game data loaded!");
+	// 	money = PlayerPrefs.GetFloat("money");
+	// 	lives = PlayerPrefs.GetFloat("lives");
+	// 	Debug.Log("Game data loaded!");
 
    
-    }
+    // }
 }
