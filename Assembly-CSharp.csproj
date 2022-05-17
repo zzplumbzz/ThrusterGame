@@ -40,6 +40,7 @@
      <Compile Include="Assets\Scripts\EndLevelScript.cs" />
      <Compile Include="Assets\Scripts\DeathPlaneScript.cs" />
      <Compile Include="Assets\Scripts\VerticleObstacles.cs" />
+     <Compile Include="Assets\Scripts\ShipDoor3Script.cs" />
      <Compile Include="Assets\Scripts\RotatingObstacle.cs" />
      <Compile Include="Assets\Scripts\ShipDoorScript.cs" />
      <Compile Include="Assets\Scripts\LifeUpScript.cs" />
@@ -48,6 +49,7 @@
      <Compile Include="Assets\Scripts\CheckPointScript.cs" />
      <Compile Include="Assets\Scripts\CameraFollowScript.cs" />
      <Compile Include="Assets\Scripts\Timer.cs" />
+     <Compile Include="Assets\Scripts\ShipDoor4Script.cs" />
      <Compile Include="Assets\Scripts\SpinningScript.cs" />
      <Compile Include="Assets\Scripts\ReverseSpinningScript.cs" />
      <Compile Include="Assets\Scripts\PauseMenuScript.cs" />
@@ -57,6 +59,8 @@
      <Compile Include="Assets\Scripts\ShipDoor2Script.cs" />
      <Compile Include="Assets\Scripts\MoneyScript.cs" />
      <Compile Include="Assets\Scripts\ShipScript.cs" />
+     <Compile Include="Assets\Scripts\SpeedUpScript.cs" />
+     <Compile Include="Assets\Scripts\SlowDownScript.cs" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />

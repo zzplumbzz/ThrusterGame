@@ -7,6 +7,7 @@ using UnityEngine.InputSystem;
 
 public class PlayerScript : MonoBehaviour
 {
+   
     public GameObject Flame1;
     public GameObject Flame2;
     public GameObject Flame3;
@@ -15,15 +16,15 @@ public class PlayerScript : MonoBehaviour
     public GameObject lazer;
     public float lazerSpeed = 100.0f;
     public float lazerLifeTime = 1.0f;
-    public float thrust = 50f;
+    public float thrust = 50.0f;
     public Rigidbody rb;
-    public float playerSpeed = 25;
-    public float maxPlayerSpeed = 50.0f;
+    public float playerSpeed = 25.0f;
+    public float maxPlayerSpeed = 25.0f;
     private Vector3 moveDirection = Vector3.zero;
     
     public float money;
     public TMP_Text moneyTXT;
-    public float lives = 3f;
+    public float lives = 3.0f;
     
     public TMP_Text livesTXT;
 
@@ -81,6 +82,17 @@ public class PlayerScript : MonoBehaviour
             
         }
 
+        // if(Input.GetKey(KeyCode.D))
+        //     {
+        //         rb.transform.Translate(Vector3.right * Time.deltaTime * playerSpeed);
+                
+        //     }
+        //     if(Input.GetKey(KeyCode.A))
+        //     {
+                
+        //         rb.transform.Translate(Vector3.left * Time.deltaTime * playerSpeed);
+        //     }
+
         // Calculate how fast the player is moving
         Vector3 targetVelocity = new Vector3(Input.GetAxis("Horizontal"),0 ,0);
         targetVelocity = rb.transform.TransformDirection(targetVelocity);
@@ -96,9 +108,9 @@ public class PlayerScript : MonoBehaviour
 
         // float moveHorizontal = Input.GetAxisRaw ("Horizontal");
         // Vector3 movement = new Vector3(moveHorizontal, 0.0f, 0.0f);
-        // transform.rotation = Quaternion.LookRotation(movement);//Quaternion.LookRotation
+        // //transform.rotation = Quaternion.LookRotation(movement);//Quaternion.LookRotation
         // transform.Translate (movement * playerSpeed * Time.deltaTime, Space.World);
-        // Debug.Log(moveHorizontal);
+        
     }
 
     public void Update()
@@ -203,11 +215,26 @@ public class PlayerScript : MonoBehaviour
             }
         }
 
+        if(other.CompareTag("SpeedUp"))
+        {
+            playerSpeed = 50;
+            maxPlayerSpeed = 50;
+        }
+
         if (other.CompareTag("Gun"))
         {
             Gun.SetActive(true);
             Gun.GetComponent<MeshRenderer>().enabled = true;
             Destroy(other.gameObject);
+        }
+    }
+
+    void OnTriggerExit(Collider other)
+    {
+        if(other.CompareTag("SpeedUp"))
+        {
+            playerSpeed = 25;
+            maxPlayerSpeed = 25;
         }
     }
 

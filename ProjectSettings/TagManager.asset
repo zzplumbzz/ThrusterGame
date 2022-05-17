@@ -12,6 +12,7 @@ TagManager:
   - Gun
   - UpperDoor
   - LowerDoor
+  - SpeedUp
   layers:
   - Default
   - TransparentFX

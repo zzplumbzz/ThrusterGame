@@ -10,7 +10,7 @@ public class DeathPlaneScript : MonoBehaviour
     // public Transform CheckPoint3;
     //public Transform CheckPoint4;
    // public Transform CheckPoint5;
-
+    PlayerScript ps;
     public Rigidbody player;
     //public PlayerScript ps;
 
@@ -47,7 +47,9 @@ public class DeathPlaneScript : MonoBehaviour
         
         
         player.constraints = RigidbodyConstraints.FreezeAll;
+        
         yield return new WaitForSeconds(1.0f);
+        
         player.constraints = RigidbodyConstraints.None;
         player.constraints = RigidbodyConstraints.FreezeRotation;
             
