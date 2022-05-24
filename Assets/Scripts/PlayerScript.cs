@@ -220,6 +220,12 @@ public class PlayerScript : MonoBehaviour
             playerSpeed = 50;
             maxPlayerSpeed = 50;
         }
+        
+        if(other.CompareTag("SpeedDown"))
+        {
+            playerSpeed = 10;
+            maxPlayerSpeed = 10;
+        }
 
         if (other.CompareTag("Gun"))
         {
@@ -232,6 +238,12 @@ public class PlayerScript : MonoBehaviour
     void OnTriggerExit(Collider other)
     {
         if(other.CompareTag("SpeedUp"))
+        {
+            playerSpeed = 25;
+            maxPlayerSpeed = 25;
+        }
+
+        if(other.CompareTag("SpeedDown"))
         {
             playerSpeed = 25;
             maxPlayerSpeed = 25;

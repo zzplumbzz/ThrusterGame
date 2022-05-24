@@ -13,6 +13,7 @@ TagManager:
   - UpperDoor
   - LowerDoor
   - SpeedUp
+  - SpeedDown
   layers:
   - Default
   - TransparentFX
