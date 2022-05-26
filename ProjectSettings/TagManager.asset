@@ -14,6 +14,8 @@ TagManager:
   - LowerDoor
   - SpeedUp
   - SpeedDown
+  - GravityUp
+  - GravityDown
   layers:
   - Default
   - TransparentFX

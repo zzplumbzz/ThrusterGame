@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class FlameScript : MonoBehaviour
 {
-    public float time = 1.0f;
+    public float time = 1.5f;
     public GameObject flame;
     public Rigidbody player;
     
@@ -22,7 +22,7 @@ public class FlameScript : MonoBehaviour
 
         if(time <= 0)
         {
-            time = 1.0f;
+            time = 1.5f;
             
 
             if(flame.GetComponent<MeshRenderer>().enabled == true)
@@ -65,7 +65,7 @@ public class FlameScript : MonoBehaviour
         
         
         player.constraints = RigidbodyConstraints.FreezeAll;
-        yield return new WaitForSeconds(1.0f);
+        yield return new WaitForSeconds(1.5f);
         player.constraints = RigidbodyConstraints.None;
         player.constraints = RigidbodyConstraints.FreezeRotation;
             

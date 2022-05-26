@@ -227,6 +227,18 @@ public class PlayerScript : MonoBehaviour
             maxPlayerSpeed = 10;
         }
 
+        if(other.CompareTag("GravityUp"))
+        {
+            rb.mass = 6;
+            thrust = 80;
+        }
+
+        if(other.CompareTag("GravityDown"))
+        {
+            rb.mass = 0.5f;
+            thrust = 30;
+        }
+
         if (other.CompareTag("Gun"))
         {
             Gun.SetActive(true);
@@ -247,6 +259,18 @@ public class PlayerScript : MonoBehaviour
         {
             playerSpeed = 25;
             maxPlayerSpeed = 25;
+        }
+
+        if(other.CompareTag("GravityUp"))
+        {
+            rb.mass = 1;
+            thrust = 50;
+        }
+
+        if(other.CompareTag("GravityDown"))
+        {
+            rb.mass = 1;
+            thrust = 50;
         }
     }
 
