@@ -16,6 +16,8 @@ TagManager:
   - SpeedDown
   - GravityUp
   - GravityDown
+  - Teleporter1
+  - Teleporter2
   layers:
   - Default
   - TransparentFX

@@ -1,0 +1,35 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class Teleporter2Script : MonoBehaviour
+{
+    public GameObject player;
+    public GameObject Teleporter1Pos;
+    public GameObject Teleporter2Pos;
+    public float speed;
+    public float angularSpeed;
+    protected Rigidbody rb;
+    
+
+    void Start()
+    {
+        rb = GetComponent<Rigidbody>();
+    }
+
+    void FixedUpdate()
+    {
+        //sets the speed and velocity of torque trap
+        speed = rb.velocity.magnitude;
+        angularSpeed = rb.angularVelocity.magnitude;
+        rb.maxAngularVelocity = 1f;
+        rb.AddTorque(Vector3.down);
+    }
+    void OnTriggerEnter(Collider other)
+    {
+        if (other.CompareTag("Player"))
+        {
+            player.transform.position = Teleporter1Pos.transform.position;
+        }
+    }
+}
