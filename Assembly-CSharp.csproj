@@ -49,6 +49,7 @@
      <Compile Include="Assets\Scripts\DialogueScript.cs" />
      <Compile Include="Assets\Scripts\ConsoleScript.cs" />
      <Compile Include="Assets\Scripts\CheckPointScript.cs" />
+     <Compile Include="Assets\Scripts\NoThrustScript.cs" />
      <Compile Include="Assets\Scripts\CameraFollowScript.cs" />
      <Compile Include="Assets\Scripts\Timer.cs" />
      <Compile Include="Assets\Scripts\ShipDoor4Script.cs" />
