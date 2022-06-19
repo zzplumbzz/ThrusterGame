@@ -25,7 +25,7 @@ public class NoThrustScript : MonoBehaviour
         if (other.CompareTag("Player"))//when the player collides with the deathplane spawns them back at the spawn point
         {
             
-            ps.thrust = 50;
+            ps.thrust = 25;
             ps.isThrusting = true;
 
             

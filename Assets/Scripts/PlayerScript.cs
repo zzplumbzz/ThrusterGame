@@ -31,6 +31,7 @@ public class PlayerScript : MonoBehaviour
     public Transform currentCheckpoint;
    
     public bool isThrusting;
+    public bool isGrounded;
     
     public PauseMenuScript PMS;
     public PlayerPrefs floatToLoad;
@@ -68,6 +69,8 @@ public class PlayerScript : MonoBehaviour
         if (Input.GetButton("Jump"))
         {
             isThrusting = true;
+            isGrounded = false;
+            
             //Apply a force to this Rigidbody in direction of this GameObjects up axis
             rb.AddForce(transform.up * thrust);
 
