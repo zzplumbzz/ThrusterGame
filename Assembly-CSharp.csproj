@@ -36,6 +36,7 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\DestroyDoorScript.cs" />
      <Compile Include="Assets\Scripts\HorizontalObstacle.cs" />
      <Compile Include="Assets\Scripts\EndLevelScript.cs" />
      <Compile Include="Assets\Scripts\DeathPlaneScript.cs" />
@@ -63,7 +64,6 @@
      <Compile Include="Assets\Scripts\Teleporter2Script.cs" />
      <Compile Include="Assets\Scripts\MoneyScript.cs" />
      <Compile Include="Assets\Scripts\ShipScript.cs" />
-     <Compile Include="Assets\Scripts\DestroyDoorScript.cs" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />

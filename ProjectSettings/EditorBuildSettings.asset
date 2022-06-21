@@ -9,6 +9,9 @@ EditorBuildSettings:
     path: Assets/Scenes/MainMenu.unity
     guid: 25d909bd1e471274095d0c5325998a0b
   - enabled: 1
+    path: Assets/Scenes/ShipScene.unity
+    guid: 07cffdccf6bcaa24ebe57d15ecd573df
+  - enabled: 1
     path: Assets/Scenes/LevelSelect.unity
     guid: c28deaebbc1d4714b9585a31969c48b8
   - enabled: 1
@@ -24,13 +27,16 @@ EditorBuildSettings:
     path: Assets/Scenes/Level3.unity
     guid: 9ddc5ff52fe7c4a43a3bcf1f49cf57da
   - enabled: 1
-    path: Assets/Scenes/GameOver.unity
-    guid: db2ceeb0904331f4087b9900065b2766
-  - enabled: 1
-    path: Assets/Scenes/ShipScene.unity
-    guid: 07cffdccf6bcaa24ebe57d15ecd573df
-  - enabled: 1
     path: Assets/Scenes/Level4.unity
     guid: da25bb120aef7fa41a4f781a056047bd
+  - enabled: 1
+    path: Assets/Scenes/Level5.unity
+    guid: be06e19b21c95e440bdb6a07d351b7f2
+  - enabled: 1
+    path: Assets/Scenes/Level6.unity
+    guid: c9998c6b60c83884698112de1a8c6a6c
+  - enabled: 1
+    path: Assets/Scenes/GameOver.unity
+    guid: db2ceeb0904331f4087b9900065b2766
   m_configObjects:
     com.unity.input.settings: {fileID: 11400000, guid: 1be21fb2b5c2f6448ad0518c6359d5b9, type: 2}

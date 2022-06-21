@@ -36,6 +36,18 @@ public class ButtonScript : MonoBehaviour
 
     }
 
+    public void LoadLevel5(string sceneName)//takes player to game scene
+    {
+        SceneManager.LoadScene("Level5");
+
+    }
+
+    public void LoadLevel6(string sceneName)//takes player to game scene
+    {
+        SceneManager.LoadScene("Level6");
+
+    }
+
     public void LoadLevelSelect(string sceneName)
     {
         SceneManager.LoadScene("LevelSelect");
