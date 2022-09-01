@@ -220,6 +220,16 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 50024966}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &54143579 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 457372077951299820, guid: b8bac99d8ab6cc6479d209fd87363c4e, type: 3}
+  m_PrefabInstance: {fileID: 1293399597}
+  m_PrefabAsset: {fileID: 0}
+--- !u!54 &54143580 stripped
+Rigidbody:
+  m_CorrespondingSourceObject: {fileID: 8163438201652433305, guid: b8bac99d8ab6cc6479d209fd87363c4e, type: 3}
+  m_PrefabInstance: {fileID: 1293399597}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &189971564
 GameObject:
   m_ObjectHideFlags: 0
@@ -838,9 +848,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e759ff77570a68d4f9683451f48b6429, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 1725731056}
+  player: {fileID: 54143579}
   smoothSpeed: 0.125
-  offset: {x: 0, y: 0, z: -15}
+  offset: {x: 0, y: 1, z: -10}
 --- !u!1 &442939892
 GameObject:
   m_ObjectHideFlags: 0
@@ -2635,6 +2645,38 @@ PrefabInstance:
       propertyPath: m_Material
       value: 
       objectReference: {fileID: 13400000, guid: 8879ee55bd763b144bd943012186eae6, type: 2}
+    - target: {fileID: 8096476117803456172, guid: b8bac99d8ab6cc6479d209fd87363c4e, type: 3}
+      propertyPath: rb
+      value: 
+      objectReference: {fileID: 54143580}
+    - target: {fileID: 8096476117803456172, guid: b8bac99d8ab6cc6479d209fd87363c4e, type: 3}
+      propertyPath: PMS
+      value: 
+      objectReference: {fileID: 1874935677}
+    - target: {fileID: 8096476117803456172, guid: b8bac99d8ab6cc6479d209fd87363c4e, type: 3}
+      propertyPath: livesTXT
+      value: 
+      objectReference: {fileID: 501922462}
+    - target: {fileID: 8096476117803456172, guid: b8bac99d8ab6cc6479d209fd87363c4e, type: 3}
+      propertyPath: moneyTXT
+      value: 
+      objectReference: {fileID: 324828001}
+    - target: {fileID: 8387262276248152820, guid: b8bac99d8ab6cc6479d209fd87363c4e, type: 3}
+      propertyPath: PMS
+      value: 
+      objectReference: {fileID: 1874935677}
+    - target: {fileID: 8387262276248152820, guid: b8bac99d8ab6cc6479d209fd87363c4e, type: 3}
+      propertyPath: livesTXT
+      value: 
+      objectReference: {fileID: 501922462}
+    - target: {fileID: 8387262276248152820, guid: b8bac99d8ab6cc6479d209fd87363c4e, type: 3}
+      propertyPath: moneyTXT
+      value: 
+      objectReference: {fileID: 324828001}
+    - target: {fileID: 8387262276248152820, guid: b8bac99d8ab6cc6479d209fd87363c4e, type: 3}
+      propertyPath: currentCheckpoint
+      value: 
+      objectReference: {fileID: 1713330121}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b8bac99d8ab6cc6479d209fd87363c4e, type: 3}
 --- !u!1001 &1338688909
@@ -2695,7 +2737,7 @@ PrefabInstance:
     - target: {fileID: 1949329760539416116, guid: 65e9824a62e425945a21f9500c1d9b3b, type: 3}
       propertyPath: player
       value: 
-      objectReference: {fileID: 1726491857}
+      objectReference: {fileID: 0}
     - target: {fileID: 1949329760539416117, guid: 65e9824a62e425945a21f9500c1d9b3b, type: 3}
       propertyPath: m_Size.z
       value: 18.67
@@ -3369,16 +3411,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &1725731056 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 2772560994407969616, guid: b8bac99d8ab6cc6479d209fd87363c4e, type: 3}
-  m_PrefabInstance: {fileID: 1293399597}
-  m_PrefabAsset: {fileID: 0}
---- !u!54 &1726491857 stripped
-Rigidbody:
-  m_CorrespondingSourceObject: {fileID: 2772560994407969628, guid: b8bac99d8ab6cc6479d209fd87363c4e, type: 3}
-  m_PrefabInstance: {fileID: 1293399597}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1874935670
 GameObject:
   m_ObjectHideFlags: 0

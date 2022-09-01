@@ -10,7 +10,7 @@ public class PlayerScript : MonoBehaviour
    
     public GameObject Flame1;
     public GameObject Flame2;
-    public GameObject Flame3;
+   // public GameObject Flame3;
     public GameObject Gun;
     public GameObject gunBarrel;
     public GameObject lazer;
@@ -132,13 +132,13 @@ public class PlayerScript : MonoBehaviour
         {
             Flame1.SetActive(false);
             Flame2.SetActive(false);
-            Flame3.SetActive(false);
+            //Flame3.SetActive(false);
         }
         else if (isThrusting == true)
         {
             Flame1.SetActive(true);
             Flame2.SetActive(true);
-            Flame3.SetActive(true);
+           // Flame3.SetActive(true);
         }
 
         if(Gun.GetComponent<MeshRenderer>().enabled == true && Input.GetKeyDown(KeyCode.N))

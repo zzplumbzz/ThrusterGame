@@ -33,7 +33,9 @@ public class DeathPlaneScript : MonoBehaviour
 
         if (other.CompareTag("Player"))//when the player collides with the deathplane spawns them back at the spawn point
         {
+            
             player = other.GetComponent<Rigidbody>();
+            
             player.transform.position = player.GetComponent<PlayerScript>().currentCheckpoint.position;
             StartCoroutine("DelayMovement");
             

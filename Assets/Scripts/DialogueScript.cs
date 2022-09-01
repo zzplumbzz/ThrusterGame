@@ -7,6 +7,7 @@ using TMPro;
 public class DialogueScript : MonoBehaviour
 {
     public GameObject dialogueBox;
+    
     public TMP_Text dialogueText;
     public string dialogue;
 
@@ -19,6 +20,7 @@ public class DialogueScript : MonoBehaviour
         dialogueActive = false;
         dialogueBox.SetActive(false);
         
+        
     }
 
     // Update is called once per frame
@@ -29,6 +31,7 @@ public class DialogueScript : MonoBehaviour
             if (dialogueBox.activeInHierarchy)
             {
                 dialogueBox.SetActive(true);
+               
                 dialogueText.text = dialogue;
             }
             
@@ -45,6 +48,7 @@ public class DialogueScript : MonoBehaviour
             Debug.Log("Player in range");
             dialogueActive = true;
             dialogueBox.SetActive(true);
+            
         }
     }
 
@@ -55,6 +59,7 @@ public class DialogueScript : MonoBehaviour
             Debug.Log("Player Out Of Range");
             dialogueActive = false;
             dialogueBox.SetActive(false);
+            
             
         }
     }
