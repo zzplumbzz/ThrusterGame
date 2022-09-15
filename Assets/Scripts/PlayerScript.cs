@@ -13,9 +13,9 @@ public class PlayerScript : MonoBehaviour
    // public GameObject Flame3;
     public GameObject Gun;
     public GameObject gunBarrel;
-    public GameObject lazer;
-    public float lazerSpeed = 100.0f;
-    public float lazerLifeTime = 1.0f;
+    public GameObject bullet;
+    public float bulletSpeed = 100.0f;
+    public float bulletLifeTime = 1.0f;
     public float thrust = 50.0f;
     public Rigidbody rb;
     public float playerSpeed = 25.0f;
@@ -143,13 +143,13 @@ public class PlayerScript : MonoBehaviour
 
         if(Gun.GetComponent<MeshRenderer>().enabled == true && Input.GetKeyDown(KeyCode.N))
         {
-            GameObject lazerClone = Instantiate(lazer, gunBarrel.transform.position, Quaternion.identity) as GameObject;
-            Rigidbody lazerPrefabRigidBody = lazerClone.GetComponent<Rigidbody>();
-            lazerPrefabRigidBody.AddForce(Vector3.right * lazerSpeed, ForceMode.Impulse);
+            GameObject bulletClone = Instantiate(bullet, gunBarrel.transform.position, Quaternion.identity) as GameObject;
+            Rigidbody bulletPrefabRigidBody = bulletClone.GetComponent<Rigidbody>();
+            bulletPrefabRigidBody.AddForce(Vector3.right * bulletSpeed, ForceMode.Impulse);
             if(Time.deltaTime >= 3)
             {
-            Destroy(lazer);
-            Destroy(lazerClone);
+            Destroy(bullet);
+            Destroy(bulletClone);
             }
         }
 
